@@ -1,4 +1,4 @@
-# 프로그래밍 일지
+﻿# 프로그래밍 일지
 - [작성 양식 모음](./Styles/Styles.md)
 - [데일리 체크](./DailyCheck/DailyCheck.md)
 

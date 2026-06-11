@@ -1,25 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\KHH\\Records\\",
+  "WorkspaceRootPath": "D:\\KHHStudy\\Records\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-2\\06_11.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WeeklyRecords\\2026_06\\6-2\\06_11.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\WeeklyRecords\\2026_06\\6-2.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-4.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WeeklyRecords\\2026_06\\6-4.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-3.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WeeklyRecords\\2026_06\\6-3.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-2.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WeeklyRecords\\2026_06\\6-2.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Styles\\Styles.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Styles\\Styles.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Styles\\Styles.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Styles\\WeeklyStyle.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Styles\\WeeklyStyle.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Styles\\WeeklyStyle.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Styles\\DailyStyle.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Styles\\DailyStyle.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Styles\\DailyStyle.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
@@ -29,68 +41,112 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 303,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "6-4.md",
+              "DocumentMoniker": "D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-4.md",
+              "RelativeDocumentMoniker": "WeeklyRecords\\2026_06\\6-4.md",
+              "ToolTip": "D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-4.md",
+              "RelativeToolTip": "WeeklyRecords\\2026_06\\6-4.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-11T10:50:51.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "6-3.md",
+              "DocumentMoniker": "D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-3.md",
+              "RelativeDocumentMoniker": "WeeklyRecords\\2026_06\\6-3.md",
+              "ToolTip": "D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-3.md",
+              "RelativeToolTip": "WeeklyRecords\\2026_06\\6-3.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-11T10:48:56.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "06_11.md",
+              "DocumentMoniker": "D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-2\\06_11.md",
+              "RelativeDocumentMoniker": "WeeklyRecords\\2026_06\\6-2\\06_11.md",
+              "ToolTip": "D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-2\\06_11.md",
+              "RelativeToolTip": "WeeklyRecords\\2026_06\\6-2\\06_11.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-11T10:45:23.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "README.md",
-              "DocumentMoniker": "C:\\KHH\\Records\\README.md",
+              "DocumentMoniker": "D:\\KHHStudy\\Records\\README.md",
               "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\KHH\\Records\\README.md",
+              "ToolTip": "D:\\KHHStudy\\Records\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-06-11T04:01:59.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DailyStyle.md",
-              "DocumentMoniker": "C:\\KHH\\Records\\Styles\\DailyStyle.md",
+              "DocumentMoniker": "D:\\KHHStudy\\Records\\Styles\\DailyStyle.md",
               "RelativeDocumentMoniker": "Styles\\DailyStyle.md",
-              "ToolTip": "C:\\KHH\\Records\\Styles\\DailyStyle.md",
+              "ToolTip": "D:\\KHHStudy\\Records\\Styles\\DailyStyle.md",
               "RelativeToolTip": "Styles\\DailyStyle.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-11T04:01:27.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T04:01:27.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeeklyStyle.md",
+              "DocumentMoniker": "D:\\KHHStudy\\Records\\Styles\\WeeklyStyle.md",
+              "RelativeDocumentMoniker": "Styles\\WeeklyStyle.md",
+              "ToolTip": "D:\\KHHStudy\\Records\\Styles\\WeeklyStyle.md",
+              "RelativeToolTip": "Styles\\WeeklyStyle.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-11T03:59:00.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Styles.md",
+              "DocumentMoniker": "D:\\KHHStudy\\Records\\Styles\\Styles.md",
+              "RelativeDocumentMoniker": "Styles\\Styles.md",
+              "ToolTip": "D:\\KHHStudy\\Records\\Styles\\Styles.md",
+              "RelativeToolTip": "Styles\\Styles.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-11T03:52:15.976Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "WeeklyStyle.md",
-              "DocumentMoniker": "C:\\KHH\\Records\\Styles\\WeeklyStyle.md",
-              "RelativeDocumentMoniker": "Styles\\WeeklyStyle.md",
-              "ToolTip": "C:\\KHH\\Records\\Styles\\WeeklyStyle.md",
-              "RelativeToolTip": "Styles\\WeeklyStyle.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-11T03:59:00.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Styles.md",
-              "DocumentMoniker": "C:\\KHH\\Records\\Styles\\Styles.md",
-              "RelativeDocumentMoniker": "Styles\\Styles.md",
-              "ToolTip": "C:\\KHH\\Records\\Styles\\Styles.md",
-              "RelativeToolTip": "Styles\\Styles.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-11T03:52:15.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "6-2.md",
-              "DocumentMoniker": "C:\\KHH\\Records\\WeeklyRecords\\2026_06\\6-2.md",
+              "DocumentMoniker": "D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-2.md",
               "RelativeDocumentMoniker": "WeeklyRecords\\2026_06\\6-2.md",
-              "ToolTip": "C:\\KHH\\Records\\WeeklyRecords\\2026_06\\6-2.md",
+              "ToolTip": "D:\\KHHStudy\\Records\\WeeklyRecords\\2026_06\\6-2.md",
               "RelativeToolTip": "WeeklyRecords\\2026_06\\6-2.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
