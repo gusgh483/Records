@@ -1,0 +1,1 @@
+﻿# 동적 링크 라이브러리: DLL(Dynamic-Link Library)
