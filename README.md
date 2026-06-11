@@ -1,19 +1,21 @@
 # 프로그래밍 일지
+- [작성 양식 모음](./Styles/Styles.md)
+- [데일리 체크](./DailyCheck/DailyCheck.md)
 
 ## 이론
-1) [키워드 정리]()
-2) [유니티]()
-3) [C#]()
-4) [수학]()
-5) [영어]()
+1) [키워드 정리](./Theory/1Keywords.md)
+2) [유니티](./Theory/2Unity.md)
+3) [C#](./Theory/3Csharp.md)
+4) [수학](./Theory/4Math.md)
+5) [영어](./Theory/5English.md)
 
 ## 주간 기록
 
 ### 6월
-- 1주차(X)
-- [2주차]()
-- [3주차]()
-- [4주차]()
+- 1주차 (X)
+- [2주차](./WeeklyRecords/2026_06/6-2.md)
+- [3주차](./WeeklyRecords/2026_06/6-3.md)
+- [4주차](./WeeklyRecords/2026_06/6-4.md)
 
 ### 7월
 - [1주차]()
