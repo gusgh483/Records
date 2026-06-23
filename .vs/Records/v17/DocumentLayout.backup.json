@@ -1,14 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\KHHStudy\\Records\\",
+  "WorkspaceRootPath": "C:\\KHH\\Records\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Theory\\1Keywords.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Theory\\1Keywords.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Theory\\1Keywords\\Virtual_Memory.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords\\Virtual_Memory.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Theory\\1Keywords\\Validation\u0026Verification.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords\\Validation\u0026Verification.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Theory\\1Keywords\\Virtualization.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords\\Virtualization.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Theory\\1Keywords\\OOP.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords\\OOP.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Theory\\1Keywords\\Polymorphism.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords\\Polymorphism.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Theory\\1Keywords\\Abstraction.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords\\Abstraction.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +42,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 299,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Validation\u0026Verification.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Theory\\1Keywords\\Validation\u0026Verification.md",
+              "RelativeDocumentMoniker": "Theory\\1Keywords\\Validation\u0026Verification.md",
+              "ToolTip": "C:\\KHH\\Records\\Theory\\1Keywords\\Validation\u0026Verification.md",
+              "RelativeToolTip": "Theory\\1Keywords\\Validation\u0026Verification.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-23T08:23:41.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Virtual_Memory.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Theory\\1Keywords\\Virtual_Memory.md",
+              "RelativeDocumentMoniker": "Theory\\1Keywords\\Virtual_Memory.md",
+              "ToolTip": "C:\\KHH\\Records\\Theory\\1Keywords\\Virtual_Memory.md",
+              "RelativeToolTip": "Theory\\1Keywords\\Virtual_Memory.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-23T08:23:40.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Virtualization.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Theory\\1Keywords\\Virtualization.md",
+              "RelativeDocumentMoniker": "Theory\\1Keywords\\Virtualization.md",
+              "ToolTip": "C:\\KHH\\Records\\Theory\\1Keywords\\Virtualization.md",
+              "RelativeToolTip": "Theory\\1Keywords\\Virtualization.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-23T08:22:23.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "1Keywords.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Theory\\1Keywords.md",
+              "RelativeDocumentMoniker": "Theory\\1Keywords.md",
+              "ToolTip": "C:\\KHH\\Records\\Theory\\1Keywords.md",
+              "RelativeToolTip": "Theory\\1Keywords.md",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-12T00:58:04.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OOP.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Theory\\1Keywords\\OOP.md",
+              "RelativeDocumentMoniker": "Theory\\1Keywords\\OOP.md",
+              "ToolTip": "C:\\KHH\\Records\\Theory\\1Keywords\\OOP.md",
+              "RelativeToolTip": "Theory\\1Keywords\\OOP.md",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-23T07:54:52.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Polymorphism.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Theory\\1Keywords\\Polymorphism.md",
+              "RelativeDocumentMoniker": "Theory\\1Keywords\\Polymorphism.md",
+              "ToolTip": "C:\\KHH\\Records\\Theory\\1Keywords\\Polymorphism.md",
+              "RelativeToolTip": "Theory\\1Keywords\\Polymorphism.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-23T08:11:23.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Abstraction.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Theory\\1Keywords\\Abstraction.md",
+              "RelativeDocumentMoniker": "Theory\\1Keywords\\Abstraction.md",
+              "ToolTip": "C:\\KHH\\Records\\Theory\\1Keywords\\Abstraction.md",
+              "RelativeToolTip": "Theory\\1Keywords\\Abstraction.md",
+              "ViewState": "AgIAANMAAAAAAAAAAAAAAO4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-23T08:15:00.665Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -30,26 +145,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "1Keywords.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Theory\\1Keywords.md",
-              "RelativeDocumentMoniker": "Theory\\1Keywords.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Theory\\1Keywords.md",
-              "RelativeToolTip": "Theory\\1Keywords.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-12T00:58:04.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "README.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\README.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\README.md",
               "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\README.md",
+              "ToolTip": "C:\\KHH\\Records\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-06-11T04:01:59.866Z",
               "EditorCaption": ""
