@@ -6,17 +6,17 @@
 - [소프트웨어 특성](./1Keywords/Software.md)
 - [소프트웨어 위기](./1Keywords/Software.md)
 - [SDLC(Software Development Life Cycle)](./1Keywords/SDLC.md)
-- [다형성(Polymorphism)](./1Keywords/Polymorphism.md)
-- [가상화(Virtualization)](./1Keywords/Virtualization.md)
-- [추상화(Abstraction)](./1Keywords/Abstraction.md)
+- [다형성(Polymorphism)](./1Keywords/OOP.md)
+- [가상화(Virtualization)](./1Keywords/OOP.md)
+- [추상화(Abstraction)](./1Keywords/OOP.md)
 - [CBD(Component Based Development)](./1Keywords/CBD.md)
 - [결합도(Coupling)](./1Keywords/Coupling.md)
 - [코드 스멜(Code Smell)](./1Keywords/Refactoring.md)
 - [리펙토링(Refactoring)](./1Keywords/Refactoring.md)
-- [검정(Validation)](./1Keywords/Validation.md)
-- [검증(Verification)](./1Keywords/Verification.md)
-- [추상클래스(Abstract Class)](./1Keywords/Abstract_Class.md)
-- [인터페이스(Interface)](./1Keywords/Interface.md)
+- [검정(Validation)](./1Keywords/Validation&Verification.md)
+- [검증(Verification)](./1Keywords/Validation&Verification.md)
+- [추상클래스(Abstract Class)](./1Keywords/Abstraction.md)
+- [인터페이스(Interface)](./1Keywords/Abstraction.md)
 - [유즈 케이스 다이어그램](./1Keywords/Diagram.md)
 - [클래스 다이어그램](./1Keywords/Diagram.md)
 - [시퀀스 다이어그램](./1Keywords/Diagram.md)
@@ -59,3 +59,8 @@
 - 컴파일러 vs 인터프리터
 - GPU
 - GPGPU
+- CUDA
+
+
+
+[-README-](../README.md)
