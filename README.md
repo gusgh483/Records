@@ -28,3 +28,31 @@ Project Settings 에서 우선순위를 설정해줄 수 있다.<br>
 	 Apply<br> 
 
 ---
+
+
+#### 2026.07.14
+
+[개선점] 각 개별 Enemy 객체에 대한 Coroutine 함수를 일일히 수행하면
+과부하가 생길 우려가 있다.
+
+첫번째 방법 - Event Action 구독 / HashSet 사용
+
+1) 공격 코루틴은 시작과 동시에 실행
+2) OnTriggerEnter2D - 범위 내에 닿은 적 HashSet에 담기
+3) OnTriggerExit2D - 범위를 벗어난 적 HashSet에서 빼기
+4) 적이 범위 내에서 죽어 null이 될 시 HashSet에서 빠지도록 설계
+
+두번째 방법 - Physics.OverlapSphere 사용
+
+1) 범위 내 닿은 적이 배열로 반환되고 그 배열 안에 존재하는 적들만 때리기
+2) 적이 범위 내에서 때리기도 전에 죽어 null이 될 시 무시하고 넘어가도록 설계
+= 충돌체의 사이즈를 별도로 계산하는 번거로움
+
+-> 1번 체택
+------------
+
+[에러발생]
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute. System.Collections.Generic.HashSet`1+Enumerator[T].MoveNext () (at <5dcb76a18315462e964f1bedee980471>:0) ContinuousWeapon+<ContinousRoutine>d__12.MoveNext () (at Assets/1.Scripts/1.Play/1.Upgrade/0.Weapon/2.ContinuousWeapon/ContinuousWeapon.cs:62) UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <254a04541d1c4a7b9e9c9e594cf72b4c>:0) 
+
+원인: foreach문에서 새로 생성한 리스트를 참조해야하는데 헤시셋을 참고하여 꼬여버림
