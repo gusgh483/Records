@@ -29,6 +29,7 @@ Project Settings 에서 우선순위를 설정해줄 수 있다.<br>
 
 ---
 
+<br> 
 
 #### 2026.07.14
 
@@ -48,11 +49,44 @@ Project Settings 에서 우선순위를 설정해줄 수 있다.<br>
 2) 적이 범위 내에서 때리기도 전에 죽어 null이 될 시 무시하고 넘어가도록 설계
 = 충돌체의 사이즈를 별도로 계산하는 번거로움
 
--> 1번 체택
-------------
+-> 첫번째 방법 체택
+
 
 [에러발생]
 
 InvalidOperationException: Collection was modified; enumeration operation may not execute. System.Collections.Generic.HashSet`1+Enumerator[T].MoveNext () (at <5dcb76a18315462e964f1bedee980471>:0) ContinuousWeapon+<ContinousRoutine>d__12.MoveNext () (at Assets/1.Scripts/1.Play/1.Upgrade/0.Weapon/2.ContinuousWeapon/ContinuousWeapon.cs:62) UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <254a04541d1c4a7b9e9c9e594cf72b4c>:0) 
 
 원인: foreach문에서 새로 생성한 리스트를 참조해야하는데 헤시셋을 참고하여 꼬여버림
+
+<br> 
+
+#### 2026.07.16
+
+직렬화(Serialization)
+
+16 core 32Thread(4Ghz)
+
+직렬: 통로(Stream)가 하나 - 선입선출 / 순차적
+병렬: 통로가 여러개
+
+--------------------
+
+CPU(Register)<br> 
+ㅣ<br> 
+Cache<br> 
+ㅣ<br> 
+RAM<br> 
+ㅣ<br> 
+I/O(입출력장치) : Keyboard / SSD / Network . . . .<br> 
+ㄴ Inout용 통로<br> 
+ㄴ Output용 통로
+<br> 
+최소단위(Byte)로 통로를 지나간다 - ByteStream
+
+--------------------
+
+입력방식)
+text => Json : 읽어들이는 속도는 느리지만 편집 용이
+binary : 배포 시 Json을 binary로 변환(뜯어볼 수 없다)
+<br> 
+ByteStream에 통과시키기 위해 Byte 단위로 변환하는 작업 = 직렬화
