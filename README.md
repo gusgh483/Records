@@ -11,8 +11,9 @@
 
 ## 메모
 
-#### 2026.07.07
 ---
+#### 2026.07.07
+
 
 - Toggle의 SetIsOnWithoutNotify() 함수 - UnityEngine.UI <br>
 각 변경에 대한 이벤트 발행 없이 isOn 값만 변경하는 함수
@@ -26,10 +27,7 @@ Project Settings 에서 우선순위를 설정해줄 수 있다.<br>
 	- ▶ Project Settings <br>▶ Script Execution Order <br>▶ ( + ) 아이콘 클릭 (Add script to custom order)<br>
     ▶ 원하는 객체명 클릭하여 추가<br> ▶ 낮은 숫자일 수록 더 빨리 실행되므로 0보다 작은 숫자로 설정 (-1) <br>▶
 	 Apply<br> 
-
 ---
-
-<br> 
 
 #### 2026.07.14
 
@@ -58,7 +56,7 @@ InvalidOperationException: Collection was modified; enumeration operation may no
 
 원인: foreach문에서 새로 생성한 리스트를 참조해야하는데 헤시셋을 참고하여 꼬여버림
 
-<br> 
+---
 
 #### 2026.07.16
 
@@ -69,7 +67,7 @@ InvalidOperationException: Collection was modified; enumeration operation may no
 직렬: 통로(Stream)가 하나 - 선입선출 / 순차적
 병렬: 통로가 여러개
 
---------------------
+<br><br>
 
 CPU(Register)<br> 
 ㅣ<br> 
@@ -83,7 +81,7 @@ I/O(입출력장치) : Keyboard / SSD / Network . . . .<br>
 <br> 
 최소단위(Byte)로 통로를 지나간다 - ByteStream
 
---------------------
+<br><br>
 
 입력방식)
 text => Json : 읽어들이는 속도는 느리지만 편집 용이
@@ -92,7 +90,7 @@ binary : 배포 시 Json을 binary로 변환(뜯어볼 수 없다)
 ByteStream에 통과시키기 위해 Byte 단위로 변환하는 작업 = 직렬화
 
 
-<br> 
+---
 
 #### 2026.07.20
 
@@ -198,4 +196,6 @@ View(카메라로부터의 상대적 좌표) --Projection Matrix(FOV, Near, Far,
 Clip(원근법 계산을 적용한 좌표) --NDC(정규화 좌표) -- Viewport 변환--><br> 
 Screen(원근법이 적용된 스크린상의 최종 좌표)<br> 
 
-<br> <br> 
+---
+
+<br> 
