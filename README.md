@@ -57,7 +57,6 @@ InvalidOperationException: Collection was modified; enumeration operation may no
 원인: foreach문에서 새로 생성한 리스트를 참조해야하는데 헤시셋을 참고하여 꼬여버림
 
 ---
-
 #### 2026.07.16
 
 직렬화(Serialization)
@@ -91,7 +90,6 @@ ByteStream에 통과시키기 위해 Byte 단위로 변환하는 작업 = 직렬
 
 
 ---
-
 #### 2026.07.20
 
 https://unitygraphics.web.app/#home
@@ -155,7 +153,7 @@ https://unitygraphics.web.app/#home
 
 2. 3D 모델 시각화
 - Vertex의 Position은 처음부터 화면상의 좌표가 아니라 Local Space 좌표이다.
-- Transform의 Scale, Rotation, Translation은 Model Matrix를 만들고,
+- Transform의 Scale, Rotation, Translation은 Model Matrix를 만들고,<br> 
   Model Matrix는 Local 좌표를 World 좌표로 변환한다. 
 - Camera의 위치와 회전은 View Matrix와 연결되고, View Matrix는 World 좌표를 카메라 기준으로 변환한다. 
 - Projection Matrix는 FOV, Near, Far, Aspect를 반영해 View 좌표를 Clip 좌표로 변환한다. 
@@ -196,6 +194,103 @@ View(카메라로부터의 상대적 좌표) --Projection Matrix(FOV, Near, Far,
 Clip(원근법 계산을 적용한 좌표) --NDC(정규화 좌표) -- Viewport 변환--><br> 
 Screen(원근법이 적용된 스크린상의 최종 좌표)<br> 
 
----
+
+3. GPU 랜더 파이프라인
+- Mesh 데이터가 GPU 안에서 어떤 과정을 거쳐 최종 픽셀이 되는지
+- CPU가 그리기 명령(Draw Call)을 보내면 GPU는 IA, VS, RS, PS, OM 단계를 거친다.
+- IA는 Vertex와 Index를 읽어 Primitive를 준비한다.
+- VS는 정점마다 실행되어 위치와 전달 값을 계산한다.
+- RS는 삼각형을 화면의 픽셀 후보(Fragment)로 바꾸고. UV와 Normal 같은 값을 보간한다.
+- PS는 픽셀 후보마다 Texture, Material, Light 정보 등을 사용해 색을 계산한다.
+- OM는 Depth Test(깊이 테스트), Stencil Test, Blending 등을 거쳐 최종 Render Target에 기록한다.
+- 핵심은 단순 단계 이름 암기가 아니라,
+  데이터가 정점에서 삼각형, 픽셀 후보, 최종 픽셀로 바뀌는 흐름을 파악하는 것.
+
+1) GPU 랜더 파이프라인과 Unity URP?
+- GPU 랜더 파이프라인은 GPU 내부 처리 흐름이고,
+  URP는 그 흐름을 활용해 랜더링 절차와 품질을 구성하는 Unity의 프레임워크이다.
+
+2) VS와 PS는 왜 둘 다 Shader라고 하는가?
+- VS와 PS는 실행 대상과 역할은 다르지만 모두 GPU에서 실행되는 프로그래밍 가능한 Shader 단계이다.
+
+3) Resterizer 단계에서 하는 일
+- 삼각형이 덮는 픽셀 후보를 만들고 정점의 UV와 Normal 같은 속성 값들을 픽셀 후보마다 보간하여 계산한다.
+
+4) Fragment와 Pixel의 차이
+- Fragment는 최종 기록 전의 픽셀 후보이고, Pixel은 Render Target에 실제로 기록된 화면상의 점에 가깝다.
+
+5) Compute Shader도 랜더 파이프라인 단계인가?
+- Compute Shader는 그래픽 파이프라인 단계가 아니라, GPU가 범용 계산을 수행하고 그 결과를 제공할 수 있는 별도 Shader이다.
+
+6) Pixel Shader에서 계산한 색이 무조건 화면에 출력되는가?
+- Pixel Shader가 색을 계산해도 Depth/Stencil Test와 Blending 결과에 따라 최종 화면에 기록되지 않거나, 다르게 기록될 수 있다.
+
+7) CPU가 Draw Call을 많이 보내면 GPU만 부하가 발생하는가?
+- GPU뿐 아니라 CPU의 명령 준비와 랜더링 상태 변경 비용도 함꼐 발생할 수 있다.
+
+
+4. 셰이더와 메터리얼
+- Shader는 GPU가 정점과 픽셀을 계산하는 방법, Material은 그 Shader에 넣을 값 묶음.
+
+- Pixel Shader는 UV로 Texture를 샘플링하고, Base Color를 곱해 Surface Color를 계산한다.
+- Normal Map은 실제 Mesh를 바꾸지 않고 빛 계산에 사용할 표면 방향을 바꾼다.
+- Metalic, Smoothness는 빛 계산에 영향을 준다.
+- Emission은 자체 발광 색(실제로 조명 역할을 하는 건 아니다.)
+- Alpha는 투명도 계산에 영향을 준다.
+
+- 유니티에서 Material Inspector에서 값을 바꾸는 것은 Shader 계산의 입력값을 바꾸는 일이다.
+
+1) 같은 Texture인데 왜 표면이 다르게 보일 수 있는가?
+- Texture는 입력 값 중 하나이므로 다른 Material 값과 조명 환경 등이 달라지면<br> 
+  같은 Texture도 다르게 보인다.
+
+2) Base Map과 Base Color는 어떻게 계산되는가?
+- 일반적으로 UV로 읽은 Base Map 색에 Base Color를 곱해 표면의 기본 색을 만든다.
+
+3) Normal Map은 실제 Mesh를 변경하는가?
+- Mormal Map은 실제 Vertex의 Position을 바꾸지 않고 조명 계산에 사용할 표면 방향만 변경한다.
+
+4) Normal Map 파일은 왜 그림 파일처럼 보이나요?
+- RGB 값을 사용하기 때문에 그림 파일로 볼 수는 있지만,
+  실제로는 Shader가 해석할 표면 방향 백터 데이터를 저장한 파일이다.
+
+5) Emission은 빛을 실제로 내는가?
+- 표면 자체를 밝게 보이게 할 뿐, 주변을 밝히려면 조명이나 GI 설정 같은 별도 처리가 필요하다.
+
+6) Base Color Alpha 값을 수정했는데 Unity에서 투명해지지 않는 이유
+- Alpha 값만 조절하는 것으로는 부족하고 Surface Type이 Transparent여야 하고 Blending이 동작해야 한다.
+
+7) Material이 너무 많으면 성능에 영향이 있을 수 있는가?
+- Material이 과도하게 나뉘면 상태 변경과 Draw Call, Set Pass 준비 비용이 증가할 수 있다.
+
+8) 유니티 Shader Graph를 쓰는 것과 Shader를 직접 코딩하는 것의 차이
+- Shader Graph는 Shader를 노드 기반으로 작성하는 도구이고
+  최종적으로 GPU에서 실행되는 Shader 코드로 변환된다.
+
+9) URP Lit과 Unlit은 무엇이 다른가?
+- Lit은 조명 반응 계산을 하지만, Unlit은 조명 영향을 거의 받지 않고 색과 Texture를 직접 보여 준다.
+
+10) 분홍색 오브젝트는 왜 생기는가?
+- 분홍색 Material은 대게 Shader 누락, 랜더 파이프라인 비호환, Shader 컴파일 실패 등<br> 
+  주로 Pixel Shader 단계 문제를 뜻한다.
+
+11) Material 값은 CPU, GPU 어느 쪽에 있는가?
+- Material은 프로젝트 데이터로 관리되지만(CPU), 랜더링에 필요한 값과 Texture는 GPU로 전달되어 사용된다.
 
 <br> 
+
+---
+#### 2026.07.21
+
+[할당 영역]<br> 
+Automatic(자동) - Stack<br> 
+Static(정적) - Data / 초기값이 없거나 0 혹은 null인 변수 - BSS (예약공간)<br> 
+Dynamic(동적) - Heap<br> 
+<br> 
+정적 생성자 보유 => static class<br> 
+<br>
+C -> 기계어 : 컴파일링<br>
+C# -> ByteCode(중간언어) -> 기계어 : 인터프리팅<br> 
+<br> 
+값형식을 참조형식으로 - Boxing<br> 
+참조형식을 값형식으로 - Unboxing<br> 
