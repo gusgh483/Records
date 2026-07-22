@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Theory\\1Keywords\\Memory\\Memory.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords\\Memory\\Memory.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\DailyCheck.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DailyCheck.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Theory\\1Keywords\\File_Format\\File_Format.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords\\File_Format\\File_Format.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Theory\\1Keywords\\Memory\\Memory.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords\\Memory\\Memory.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,7 +29,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 128,
+          "DockedWidth": 512,
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -42,31 +42,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DailyCheck.md",
               "DocumentMoniker": "D:\\KHHStudy\\Records\\DailyCheck.md",
               "RelativeDocumentMoniker": "DailyCheck.md",
               "ToolTip": "D:\\KHHStudy\\Records\\DailyCheck.md",
               "RelativeToolTip": "DailyCheck.md",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-07-20T08:46:07.878Z"
+              "WhenOpened": "2026-07-20T08:46:07.878Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Memory.md",
               "DocumentMoniker": "D:\\KHHStudy\\Records\\Theory\\1Keywords\\Memory\\Memory.md",
               "RelativeDocumentMoniker": "Theory\\1Keywords\\Memory\\Memory.md",
               "ToolTip": "D:\\KHHStudy\\Records\\Theory\\1Keywords\\Memory\\Memory.md",
               "RelativeToolTip": "Theory\\1Keywords\\Memory\\Memory.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-07-20T08:30:41.842Z"
+              "WhenOpened": "2026-07-20T08:30:41.842Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "File_Format.md",
               "DocumentMoniker": "D:\\KHHStudy\\Records\\Theory\\1Keywords\\File_Format\\File_Format.md",
               "RelativeDocumentMoniker": "Theory\\1Keywords\\File_Format\\File_Format.md",
@@ -78,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "1Keywords.md",
               "DocumentMoniker": "D:\\KHHStudy\\Records\\Theory\\1Keywords.md",
               "RelativeDocumentMoniker": "Theory\\1Keywords.md",
@@ -96,7 +98,7 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "D:\\KHHStudy\\Records\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAACwBAAAAAAAAAAAAAD4BAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-06-11T04:01:59.866Z",
               "EditorCaption": ""

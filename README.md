@@ -294,3 +294,45 @@ C# -> ByteCode(중간언어) -> 기계어 : 인터프리팅<br>
 <br> 
 값형식을 참조형식으로 - Boxing<br> 
 참조형식을 값형식으로 - Unboxing<br> 
+
+<br> 
+
+---
+#### 2026.07.22
+
+```
+// Sequential -> 데이터를 순차적으로
+// Pack = 1 -> 1 byte 씩 (바이트패깅)
+
+[StructLayout(LayoutKind.Sequential, Pack = 1)] 
+public struct WeaponData
+{
+    public WeaponType Type;
+    public float Power;
+    public float Speed;
+    public float Durabillity;
+    public float CriticalRatio;
+}
+```
+<br><br>
+
+- Dictionary
+
+| key(string) - 균형2진트리 | Value(int) |- Pair => Array
+|:--- |:--- |
+| "Oak" | 100 | 
+| "Elf" | 250 |
+| "Dwarf" | 80 |
+| "Human" | 200 |
+| "Poring" | 150 |
+
+<br>
+
+2진트리<br>
+  . Root<br>
+ . . Branch<br>
+.. .. Leaf<br>
+완전2진트리 , 포화2진트리
+<br>
+
+C# => AVR트리

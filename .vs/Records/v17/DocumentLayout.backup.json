@@ -29,7 +29,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 445,
+          "DockedWidth": 512,
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -96,7 +96,7 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "D:\\KHHStudy\\Records\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAABcBAAAAAAAAAADwvycBAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABQBAAAAAAAAAAAAAC4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-06-11T04:01:59.866Z",
               "EditorCaption": ""
