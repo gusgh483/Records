@@ -12,7 +12,7 @@
 ## 메모
 
 ---
-#### 2026.07.07
+### 2026.07.07
 
 
 - Toggle의 SetIsOnWithoutNotify() 함수 - UnityEngine.UI <br>
@@ -29,7 +29,7 @@ Project Settings 에서 우선순위를 설정해줄 수 있다.<br>
 	 Apply<br> 
 ---
 
-#### 2026.07.14
+### 2026.07.14
 
 [개선점] 각 개별 Enemy 객체에 대한 Coroutine 함수를 일일히 수행하면
 과부하가 생길 우려가 있다.
@@ -57,7 +57,7 @@ InvalidOperationException: Collection was modified; enumeration operation may no
 원인: foreach문에서 새로 생성한 리스트를 참조해야하는데 헤시셋을 참고하여 꼬여버림
 
 ---
-#### 2026.07.16
+### 2026.07.16
 
 직렬화(Serialization)
 
@@ -90,7 +90,7 @@ ByteStream에 통과시키기 위해 Byte 단위로 변환하는 작업 = 직렬
 
 
 ---
-#### 2026.07.20
+### 2026.07.20
 
 https://unitygraphics.web.app/#home
 
@@ -280,7 +280,7 @@ Screen(원근법이 적용된 스크린상의 최종 좌표)<br>
 <br> 
 
 ---
-#### 2026.07.21
+### 2026.07.21
 
 [할당 영역]<br> 
 Automatic(자동) - Stack<br> 
@@ -298,7 +298,7 @@ C# -> ByteCode(중간언어) -> 기계어 : 인터프리팅<br>
 <br> 
 
 ---
-#### 2026.07.22
+### 2026.07.22
 
 ```
 // Sequential -> 데이터를 순차적으로
@@ -336,3 +336,137 @@ public struct WeaponData
 <br>
 
 C# => AVR트리
+
+<br> 
+
+---
+### 2026.07.23
+-> 주말에 찾아서 공부할 것
+
+#### 이진 트리
+- 순회 방식(전위, 중위, 후위)<br> 
+<br> 
+- 시간복잡도 (최악 O)
+```
+O(1) > O(logn) > O(n) > O(n*logn) > O(n^2) > O(n^3)
+```
+<br> 
+
+- O(n)
+```
+for (int i = 0; i < 101; i++)
+{
+    if (i == 100) 
+        break;
+}
+```
+<br> 
+
+- O(n^2^)
+```
+for (int y = 0; y < n; y++)
+{
+    for (int x = 0; x < n; x++)
+    {
+            
+    }
+}
+```
+- 이진탐색 - O(logn)
+    - 이진탐색 트리 - O(logn)
+- 이진트리 종류
+    - 완전이진트리
+    - 포화이진트리
+- 힙(Heap)
+- 균형이진트리
+    - AVL Tree
+    - Red Black Tree
+    - B Tree
+<br><br>
+#### 자료구조 (학문적)
+- 선형
+    - 배열(Array)
+        - 고정형
+        - 가변형(List)
+            - 연결 리스트(Linked List)
+                - 이중 연결 리스트(Duplex)
+                - 원형 연결 리스트(Circular)
+- 스택(Stack)
+- 큐(Queue)
+    - 스크롤(Scroll)
+    - 쉘프(Shelf)
+    - 데큐(Dequeue)
+    - 힙(Heap)
+<br><br>
+- 비선형
+    - 트리
+        - 일반형 트리
+        - n진형 트리
+            - 2진 트리(Binary)
+                - 순회(전, 중, 후)
+                - 2진 탐색(Binary Search)
+                - 2인 탐색트리(BST)
+                - 힙(Heap)
+                - 균형 2진트리
+                    - AVL, RB, B
+            - 4진 트리(Quad)
+            - 8진 트리(Oct)
+    - 그래프
+        - 탐색
+            - 깊이 우선 탐색(DFS)
+            - 너비 우선 탐색(BFS)
+        - 위상 정렬(Topology Sort)
+        - 최소 비용 트리(MST)
+            - 프림(Prim)
+            - 크루스탈(Kruskal)
+            - 솔린(Sollin) - 보루부카(Boruvka)
+- 파일
+    - 텍스트 파일(json, XML)
+    - 바이너리 파일
+    - 직렬화(Serialization)
+<br><br>
+#### 알고리즘
+- 복잡도
+    - 시간 복잡도
+    - 공간 복잡도
+- 탐색
+    - 순차 탐색
+    - 2진 탐색
+    - 문자열 탐색
+- 정렬
+    - O(n^2)
+        - 버블 정렬
+        - 선택 정렬
+        - 삽입 정렬
+    - O(m*logn)
+        - 병합 정렬
+        - 퀵 정렬
+- 길찾기(최단거리)
+    - 다익스트라(데이크스트라)
+    - A-Star(A*)
+        - Nevigation Mesh
+    - 벨만-포드 - O(n^2)
+    - 플로워드-워셜 - O(n^3)
+
+- 설계방식(구상방식)
+    - 분할 / 정복
+        - 분할된 문제끼리 영향을 주지 않음 -> 병렬 프로그래밍 가능
+- 동적 프로그래밍
+    - 메모이제이션
+    - 병렬 프로그래밍 X
+- 탐욕(Greedy)
+- 백트래킹(Back Tracking)
+<br> 
+
+---
+### 2026.07.27
+
+
+
+
+
+
+
+<br> 
+
+---

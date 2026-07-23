@@ -29,7 +29,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 512,
+          "DockedWidth": 265,
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -50,8 +50,7 @@
               "RelativeToolTip": "DailyCheck.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-07-20T08:46:07.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-20T08:46:07.878Z"
             },
             {
               "$type": "Document",
@@ -98,7 +97,7 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "D:\\KHHStudy\\Records\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAACwBAAAAAAAAAAAAAD4BAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEQBAAAAAAAAAAAQwIEBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-06-11T04:01:59.866Z",
               "EditorCaption": ""
