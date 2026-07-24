@@ -1,9 +1,9 @@
 ﻿# 유니티 정리
 
-## 필기 자료
+## 수업 필기 자료
 - [Unity Graphics](./2Unity/UnityGraphics/UnityGraphics.md)
 
-## 
+## 개인 자료
 
 1. 함수
 - Mathf
@@ -12,8 +12,6 @@
 
 2. 기타
 - ScriptableObject
-- AssetMenu
 
-<br>
-
-[-README-](../README.md)
+---
+[뒤로가기](../README.md)

@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Others"
+    "\\Others",
+    "\\Theory",
+    "\\Theory\\1Keywords",
+    "\\Theory\\1Keywords\\Software",
+    "\\Theory\\2Unity"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Theory\\1Keywords\\Software\\SDLC.md",
   "PreviewInSolutionExplorer": false
 }

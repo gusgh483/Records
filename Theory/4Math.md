@@ -4,6 +4,5 @@
 
 
 
-<br>
-
-[-README-](../README.md)
+---
+[뒤로가기](../README.md)
