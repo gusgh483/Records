@@ -103,13 +103,24 @@
 - [Process vs Thread](./1Keywords/.md)
 - [PCB(Process Control Block)](./1Keywords/.md)
 - [TCB(Thread Control Block)](./1Keywords/.md)
+
 - [PCB - Process id](./1Keywords/.md)
 - [TCB - Thread Id](./1Keywords/.md)
+
 - [PCB - Process Staus](./1Keywords/.md)
-- [TCB -Thread Status](./1Keywords/.md)
-- [CPU register](./1Keywords/.md)
+- [TCB - Thread Status](./1Keywords/.md)
+
+- [CPU Register](./1Keywords/.md)
 - [CPU Register - PC(Program Counter)](./1Keywords/.md)
+
 - [PCB - PC](./1Keywords/.md)
+- [TCB - PC](./1Keywords/.md)
+- [CPU Register - IR](./1Keywords/.md)
+- [CPU Register - MAR](./1Keywords/.md)
+- [CPU Register - MBR](./1Keywords/.md)
+- [CPU Register - GPR](./1Keywords/.md)
+- [CPU Register - AC](./1Keywords/.md) -(07/26)
+
 
 <br><br>
 [뒤로가기](../README.md)
