@@ -5,7 +5,6 @@
 ---
 ### 2026.07.07
 
-
 - Toggle의 SetIsOnWithoutNotify() 함수 - UnityEngine.UI <br>
 각 변경에 대한 이벤트 발행 없이 isOn 값만 변경하는 함수
 ```
@@ -19,7 +18,6 @@ Project Settings 에서 우선순위를 설정해줄 수 있다.<br>
     ▶ 원하는 객체명 클릭하여 추가<br> ▶ 낮은 숫자일 수록 더 빨리 실행되므로 0보다 작은 숫자로 설정 (-1) <br>▶
 	 Apply<br> 
 ---
-
 ### 2026.07.14
 
 [개선점] 각 개별 Enemy 객체에 대한 Coroutine 함수를 일일히 수행하면
@@ -83,7 +81,7 @@ ByteStream에 통과시키기 위해 Byte 단위로 변환하는 작업 = 직렬화
 ---
 ### 2026.07.20
 
-https://unitygraphics.web.app/#home
+https://unitygraphics.web.app
 
 <br> <br> 
 0. Home
@@ -467,11 +465,43 @@ ctrl = 설정한 단위 만큼만 움직임<br>
 v = 정점에 딱 맞춰서<br> 
 
 ProjectSettings - Quality - Level of Details(최하단) <= LOD 일괄 설정<br> 
+
 //////////////////////////<br> 
 
+[개선점] 레벨 업 시 연속된 공격 키 입력 시 업그레이드 화면이 바로 넘어가버리는 현상 개선
 
 
 
+1) 공격 코루틴은 시작과 동시에 실행
+2) OnTriggerEnter2D - 범위 내에 닿은 적 HashSet에 담기
+3) OnTriggerExit2D - 범위를 벗어난 적 HashSet에서 빼기
+4) 적이 범위 내에서 죽어 null이 될 시 HashSet에서 빠지도록 설계
+
+두번째 방법 - Physics.OverlapSphere 사용
+
+
+
+[에러발생]
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute. System.Collections.Generic.HashSet`1+Enumerator[T].MoveNext () (at <5dcb76a18315462e964f1bedee980471>:0) ContinuousWeapon+<ContinousRoutine>d__12.MoveNext () (at Assets/1.Scripts/1.Play/1.Upgrade/0.Weapon/2.ContinuousWeapon/ContinuousWeapon.cs:62) UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <254a04541d1c4a7b9e9c9e594cf72b4c>:0) 
+
+원인: foreach문에서 새로 생성한 리스트를 참조해야하는데 헤시셋을 참고하여 꼬여버림
+
+//////////////////////////<br> 
+
+1. 유니티 에디터에서 에셋은 파일로 간주<br>
+-> 입출력 장치를 거친다고 간주<br>
+-> 입출력 장치는 직렬화를 통해야 되기 때문에 직렬화된 클래스 및 변수만 에디터에 출력<br>
+-> HideInspcetor: 직렬화와 상관 없이 에디터 상에서 편집할 수 없도록 숨기는 기능<br>
+
+2. 멤버 변수<br>
+ -> public은 공개되므로 자동 직렬화되는 변수<br>
+ -> public 변수는 NonSerialized로 직렬화 하지 않는 것이 가능<br>
+ -> private은 공개되지 않으므로 직렬화 않됨<br>
+ -> private의 경우 직렬화를 하고 싶을때 SerializeField 애트리뷰트 사용<br>
+
+ - 델리게이트(delegate)
+ - 
 <br> 
 
 ---
