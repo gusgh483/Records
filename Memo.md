@@ -451,10 +451,15 @@ for (int y = 0; y < n; y++)
 
 ---
 ### 2026.07.27
+[¿ë¾î]<br> 
+LOD - Level Of Detail<br> 
 
+[´Ü­sÅ°]<br> 
+ctrl + shift = ¹Ù´Ú¿¡ µü ºÙ¾î¼­<br> 
+ctrl = ¼³Á¤ÇÑ ´ÜÀ§ ¸¸Å­¸¸ ¿òÁ÷ÀÓ<br> 
+v = Á¤Á¡¿¡ µü ¸ÂÃç¼­<br> 
 
-
-
+ProjectSettings - Quality - Level of Details(ÃÖÇÏ´Ü) <= LOD ÀÏ°ı ¼³Á¤<br> 
 
 
 
