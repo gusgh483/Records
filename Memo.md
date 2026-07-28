@@ -472,15 +472,6 @@ ProjectSettings - Quality - Level of Details(최하단) <= LOD 일괄 설정<br>
 
 
 
-1) 공격 코루틴은 시작과 동시에 실행
-2) OnTriggerEnter2D - 범위 내에 닿은 적 HashSet에 담기
-3) OnTriggerExit2D - 범위를 벗어난 적 HashSet에서 빼기
-4) 적이 범위 내에서 죽어 null이 될 시 HashSet에서 빠지도록 설계
-
-두번째 방법 - Physics.OverlapSphere 사용
-
-
-
 [에러발생]
 
 InvalidOperationException: Collection was modified; enumeration operation may not execute. System.Collections.Generic.HashSet`1+Enumerator[T].MoveNext () (at <5dcb76a18315462e964f1bedee980471>:0) ContinuousWeapon+<ContinousRoutine>d__12.MoveNext () (at Assets/1.Scripts/1.Play/1.Upgrade/0.Weapon/2.ContinuousWeapon/ContinuousWeapon.cs:62) UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <254a04541d1c4a7b9e9c9e594cf72b4c>:0) 
