@@ -3,7 +3,9 @@
     "",
     "\\Others",
     "\\Theory",
-    "\\Theory\\2Unity"
+    "\\Theory\\2Unity",
+    "\\Theory\\2Unity\\UnityGraphics"
   ],
+  "SelectedNode": "\\Theory\\2Unity\\UnityGraphics\\UnityGraphics.md",
   "PreviewInSolutionExplorer": false
 }
