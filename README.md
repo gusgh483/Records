@@ -2,6 +2,7 @@
 - [작성 양식 모음](./Styles/Styles.md)
 - [데일리 체크](./DailyCheck.md)
 - [데일리 로그](./DailyLog.md)
+- [주간 시간표](./Planer.md)
 
 
 ## 이론
