@@ -345,6 +345,10 @@ InvalidOperationException: Collection was modified; enumeration operation may no
 
 <br> 
 
+#### 람다 특성 정리
+1. 델리게이트(delegate)를 통해서만 정의 가능
+    - 델리게이트의 타입을 통해 파라미터 타입과 리턴 타입을 생성
+
 ---
 
 ### 2026.07.31
