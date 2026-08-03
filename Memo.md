@@ -352,9 +352,17 @@ InvalidOperationException: Collection was modified; enumeration operation may no
 ---
 
 ### 2026.07.31
+---
 
+### 2026.08.03
+<br> 
 
-
+Hash: 값을 특정한 알고리즘을 통해 변환하는 것(단방향, 복원 불가)<br> 
+Hash Table: Hash에서 나온 값을 테이블화(Hash: 키 값)<br> 
+C#의 자료형과 변수를 찾을 때 사용<br> 
+Unity 에셋을 찾을 때 사용<br> 
+- Unity Animation에서 Animation Clip 검색 시 Hash가 기본적으로 사용됨<br> 
+Message는 Hash를 사용하지는 않음<br> 
 
 ---
 [뒤로가기](./README.md)
