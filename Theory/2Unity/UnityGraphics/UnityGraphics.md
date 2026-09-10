@@ -1,4 +1,8 @@
 # Unity Graphics
+---
+[뒤로가기](../../2Unity.md)
+
+---
 
 링크: https://unitygraphics.web.app
 
@@ -308,3 +312,5 @@ Render Scale은 출력에 사용할 내부 렌더링  해상도 비율이다.
 
 ### 5) URP 옵션을 바꿨는데 화면 차이가 별로 없는 경우
 - 그 옵션을 사용하는 효과가 현재 화면에 없을 수 있다.
+---
+[뒤로가기](../../2Unity.md)

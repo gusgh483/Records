@@ -2,6 +2,7 @@
 
 ## 수업 필기 자료
 - [Unity Graphics](./2Unity/UnityGraphics/UnityGraphics.md)
+- [Unity Android Build](./2Unity/Build/AndroidBuild.md)
 
 ## 개인 자료
 
