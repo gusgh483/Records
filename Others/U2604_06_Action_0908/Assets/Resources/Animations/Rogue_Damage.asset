@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7c72d1b23cb844dad45bbf360a40a3, type: 3}
+  m_Name: Rogue_Damage
+  m_EditorClassIdentifier: 
+  sprites:
+  - sprite: {fileID: 21300000, guid: a3be1ce5ab906a548bd41cd663ceb122, type: 3}
+    offset: {x: -0.355, y: 1.27}
+    size: {x: 2.05, y: 2.54}
+  - sprite: {fileID: 21300000, guid: c822456bf43a86d4b8cceb0a5b1ebde5, type: 3}
+    offset: {x: 0.205, y: 0.62}
+    size: {x: 2.49, y: 1.24}
+  - sprite: {fileID: 21300000, guid: 609208102586bfe499a1a1bce680116c, type: 3}
+    offset: {x: -0.625, y: 1.27}
+    size: {x: 1.49, y: 2.54}
+  - sprite: {fileID: 21300000, guid: 23ed72aedd0729e4aad0e4e8cde37343, type: 3}
+    offset: {x: -1.095, y: 1.28}
+    size: {x: 1.35, y: 2.56}
+  - sprite: {fileID: 21300000, guid: e71bf977d05ca0f48b9c9fa96ea28fae, type: 3}
+    offset: {x: -1.29, y: 1.27}
+    size: {x: 1.74, y: 2.54}
+  - sprite: {fileID: 21300000, guid: 1df0c9a9d7bdb1a4195e072075b5ec61, type: 3}
+    offset: {x: -1.4, y: 1.225}
+    size: {x: 1.96, y: 2.45}
+  - sprite: {fileID: 21300000, guid: 0fb34e7884b014f4982eb73c071c40af, type: 3}
+    offset: {x: -1.465, y: 1.175}
+    size: {x: 2.09, y: 2.35}
+  - sprite: {fileID: 21300000, guid: 2c17cdf7665dc714e835ac9793a1eed4, type: 3}
+    offset: {x: -1.47, y: 1.125}
+    size: {x: 2.1, y: 2.25}
+  - sprite: {fileID: 21300000, guid: 1231dfb769be51a4db668ec5d025295b, type: 3}
+    offset: {x: -1.46, y: 1.115}
+    size: {x: 2.08, y: 2.23}
+  - sprite: {fileID: 21300000, guid: 2f69596691ebec14186f46a2d7b88593, type: 3}
+    offset: {x: -1.425, y: 1.12}
+    size: {x: 2.01, y: 2.24}
+  - sprite: {fileID: 21300000, guid: 857093701973b574eac6dd8474e46e89, type: 3}
+    offset: {x: -1.405, y: 1.12}
+    size: {x: 1.97, y: 2.24}
+  - sprite: {fileID: 21300000, guid: 52403f0addc26ec4e87895c10d9ef5c2, type: 3}
+    offset: {x: -1.38, y: 1.115}
+    size: {x: 1.92, y: 2.23}
+  - sprite: {fileID: 21300000, guid: deccdfce6133ad945a1cf499576909d1, type: 3}
+    offset: {x: -1.335, y: 1.1}
+    size: {x: 1.97, y: 2.2}
+  - sprite: {fileID: 21300000, guid: 21d6d2b13e02dcb488fe9879d17b084d, type: 3}
+    offset: {x: -1.28, y: 1.095}
+    size: {x: 2.02, y: 2.19}
+  - sprite: {fileID: 21300000, guid: 1c642dd88b28fe5409fae14c505353af, type: 3}
+    offset: {x: -1.23, y: 1.08}
+    size: {x: 2.02, y: 2.16}
+  - sprite: {fileID: 21300000, guid: 4d55f52fafa4acb4286ceaf6718a37eb, type: 3}
+    offset: {x: -1.175, y: 1.05}
+    size: {x: 1.99, y: 2.1}
+  - sprite: {fileID: 21300000, guid: 1285a36b9679f434794132628bcfed88, type: 3}
+    offset: {x: -1.115, y: 1.005}
+    size: {x: 1.93, y: 2.01}
+  - sprite: {fileID: 21300000, guid: c07c352b59c461a45b4b9a7f671a9fd4, type: 3}
+    offset: {x: -1.08, y: 0.965}
+    size: {x: 1.86, y: 1.93}
+  - sprite: {fileID: 21300000, guid: e87800746fb648c46a72f46eb7072c98, type: 3}
+    offset: {x: -1.085, y: 0.92}
+    size: {x: 1.85, y: 1.84}
+  - sprite: {fileID: 21300000, guid: 199c5c7d3e8818a4a994ec24cb42b179, type: 3}
+    offset: {x: -1.065, y: 0.885}
+    size: {x: 1.89, y: 1.77}
+  - sprite: {fileID: 21300000, guid: e04f768f2665e4649804fee107dbc455, type: 3}
+    offset: {x: -1.065, y: 0.85}
+    size: {x: 1.87, y: 1.7}
+  - sprite: {fileID: 21300000, guid: b9295e0f39c834241acd5335544bd5fc, type: 3}
+    offset: {x: -1, y: 0.835}
+    size: {x: 1.96, y: 1.67}
+  - sprite: {fileID: 21300000, guid: fbfe84bda94375d41a30d25f0aba3dc4, type: 3}
+    offset: {x: -0.925, y: 0.835}
+    size: {x: 2.05, y: 1.67}
+  - sprite: {fileID: 21300000, guid: 4a522dfb2b7b11443a214a98b016b6a4, type: 3}
+    offset: {x: -0.85, y: 0.85}
+    size: {x: 2.18, y: 1.7}
+  - sprite: {fileID: 21300000, guid: 73d7cfa9022b1104888d2cedb283b180, type: 3}
+    offset: {x: -0.78, y: 0.895}
+    size: {x: 2.32, y: 1.79}
+  - sprite: {fileID: 21300000, guid: b506ad83cba030845b4a4d384a0eeb58, type: 3}
+    offset: {x: -0.62, y: 0.96}
+    size: {x: 2.22, y: 1.92}
+  - sprite: {fileID: 21300000, guid: bc75155d693883740bb7c4d3d3429d63, type: 3}
+    offset: {x: -0.505, y: 1.055}
+    size: {x: 2.15, y: 2.11}
+  - sprite: {fileID: 21300000, guid: 845ced0a66a51894fbae8d7a661aee4e, type: 3}
+    offset: {x: -0.42, y: 1.145}
+    size: {x: 2.16, y: 2.29}
+  - sprite: {fileID: 21300000, guid: e6d58ed1f5c4a814b8ac86e5576d9efd, type: 3}
+    offset: {x: -0.305, y: 1.22}
+    size: {x: 2.27, y: 2.44}
+  - sprite: {fileID: 21300000, guid: 1f796c6296c4db440a9d2fdc0a75f488, type: 3}
+    offset: {x: -0.245, y: 1.265}
+    size: {x: 2.31, y: 2.53}
+  - sprite: {fileID: 21300000, guid: 8dc545626d5c8394ea775ec43c82f5c8, type: 3}
+    offset: {x: -0.23, y: 1.28}
+    size: {x: 2.28, y: 2.56}
+  - sprite: {fileID: 21300000, guid: 6d6d2638928a8244c8d6cbd48fa0d4a0, type: 3}
+    offset: {x: -0.29, y: 1.28}
+    size: {x: 2.2, y: 2.56}
+  - sprite: {fileID: 21300000, guid: 1220cbcb05435304096853b8542d7d86, type: 3}
+    offset: {x: -0.36, y: 1.28}
+    size: {x: 2.1, y: 2.56}
+  - sprite: {fileID: 21300000, guid: 123e5e370d96f7343a920bafc78c8410, type: 3}
+    offset: {x: -0.375, y: 1.28}
+    size: {x: 2.11, y: 2.56}
+  - sprite: {fileID: 21300000, guid: 2ae6057bb84f427428538e73629fdab8, type: 3}
+    offset: {x: -0.365, y: 1.27}
+    size: {x: 2.09, y: 2.54}
+  - sprite: {fileID: 21300000, guid: 3337cd60bbbd3244d8879e2feca83020, type: 3}
+    offset: {x: -0.355, y: 1.27}
+    size: {x: 2.05, y: 2.54}

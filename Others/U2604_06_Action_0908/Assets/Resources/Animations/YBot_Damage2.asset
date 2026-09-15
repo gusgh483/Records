@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7c72d1b23cb844dad45bbf360a40a3, type: 3}
+  m_Name: YBot_Damage2
+  m_EditorClassIdentifier: 
+  sprites:
+  - sprite: {fileID: 21300000, guid: 6bcde4546d42aaf4693a277d13f10b65, type: 3}
+    offset: {x: -0.085, y: 1.065}
+    size: {x: 1.01, y: 2.13}
+  - sprite: {fileID: 21300000, guid: f027f8fa9f64d5b48adb0f3b362fe78f, type: 3}
+    offset: {x: -0.085, y: 1.065}
+    size: {x: 1.01, y: 2.13}
+  - sprite: {fileID: 21300000, guid: 25b57c117ea36a044afcd957bd858cbd, type: 3}
+    offset: {x: -0.08, y: 1.07}
+    size: {x: 1, y: 2.14}
+  - sprite: {fileID: 21300000, guid: 949fd635bc351f1419170aeae236b4fa, type: 3}
+    offset: {x: -0.085, y: 1.08}
+    size: {x: 0.99, y: 2.16}
+  - sprite: {fileID: 21300000, guid: bb7afae2a49bf9b4fa66f7cbb252c034, type: 3}
+    offset: {x: -0.075, y: 1.075}
+    size: {x: 0.97, y: 2.15}
+  - sprite: {fileID: 21300000, guid: d23e7510768ec2745997f69fb4f04775, type: 3}
+    offset: {x: -0.055, y: 1.06}
+    size: {x: 0.93, y: 2.12}
+  - sprite: {fileID: 21300000, guid: f3c408265d2ef4e45aba80c59da3539f, type: 3}
+    offset: {x: -0.045, y: 1.045}
+    size: {x: 0.93, y: 2.09}
+  - sprite: {fileID: 21300000, guid: a09e4583e24d5894ea4ba09fe7e3ae61, type: 3}
+    offset: {x: -0.055, y: 1.04}
+    size: {x: 0.95, y: 2.08}
+  - sprite: {fileID: 21300000, guid: ff3565f1fdb996d42a99b7c316c5af15, type: 3}
+    offset: {x: -0.065, y: 1.035}
+    size: {x: 0.97, y: 2.07}
+  - sprite: {fileID: 21300000, guid: 07854bbcf1ea3824f9ab8932f9760ec6, type: 3}
+    offset: {x: -0.075, y: 1.035}
+    size: {x: 0.99, y: 2.07}
+  - sprite: {fileID: 21300000, guid: 57c58b14a0609844aa8316c7533ad253, type: 3}
+    offset: {x: -0.08, y: 1.035}
+    size: {x: 1, y: 2.07}
+  - sprite: {fileID: 21300000, guid: 4ff30b075b7db6142ab1e155bad56659, type: 3}
+    offset: {x: -0.08, y: 1.035}
+    size: {x: 0.98, y: 2.07}
+  - sprite: {fileID: 21300000, guid: 6a2009f77ddbc8f4abfc0da3d82e2239, type: 3}
+    offset: {x: -0.075, y: 1.03}
+    size: {x: 0.97, y: 2.06}
+  - sprite: {fileID: 21300000, guid: f945e116e819ad6438ada7221ffa9e47, type: 3}
+    offset: {x: -0.06, y: 1.025}
+    size: {x: 0.96, y: 2.05}
+  - sprite: {fileID: 21300000, guid: 0ebd8298d1cb6da4ba07c277364ed43b, type: 3}
+    offset: {x: -0.05, y: 1.02}
+    size: {x: 0.94, y: 2.04}
+  - sprite: {fileID: 21300000, guid: 76fd866ecc50c434bbdccd3a9a9095f8, type: 3}
+    offset: {x: -0.045, y: 1.02}
+    size: {x: 0.93, y: 2.04}
+  - sprite: {fileID: 21300000, guid: ad55149fa64e6f744a4af9fdca1aca67, type: 3}
+    offset: {x: -0.045, y: 1.015}
+    size: {x: 0.93, y: 2.03}
+  - sprite: {fileID: 21300000, guid: 557313f2639459349b9b9df598f48020, type: 3}
+    offset: {x: -0.045, y: 1.015}
+    size: {x: 0.93, y: 2.03}
+  - sprite: {fileID: 21300000, guid: 335d048b6c126a74dae345b306fc6fad, type: 3}
+    offset: {x: -0.05, y: 1.02}
+    size: {x: 0.94, y: 2.04}
+  - sprite: {fileID: 21300000, guid: 0bb2a47aaf76f434a9865d37f1817402, type: 3}
+    offset: {x: -0.05, y: 1.025}
+    size: {x: 0.94, y: 2.05}
+  - sprite: {fileID: 21300000, guid: f3b0a9c1e688db94e97d4ffab434d240, type: 3}
+    offset: {x: -0.055, y: 1.03}
+    size: {x: 0.95, y: 2.06}
+  - sprite: {fileID: 21300000, guid: 8e181c225e52c2a4ba7f5dfb063071b5, type: 3}
+    offset: {x: -0.065, y: 1.035}
+    size: {x: 0.97, y: 2.07}
+  - sprite: {fileID: 21300000, guid: 71e77aac9d1b08f4691773c2d4738f01, type: 3}
+    offset: {x: -0.075, y: 1.04}
+    size: {x: 0.97, y: 2.08}
+  - sprite: {fileID: 21300000, guid: 9788d7b2ee2be0b469500dc81ca2778f, type: 3}
+    offset: {x: -0.08, y: 1.045}
+    size: {x: 0.98, y: 2.09}
+  - sprite: {fileID: 21300000, guid: 14750a61acbcc294a92a31fcd3bf145e, type: 3}
+    offset: {x: -0.085, y: 1.05}
+    size: {x: 0.99, y: 2.1}
+  - sprite: {fileID: 21300000, guid: 43f1d2fbf9e3b5c48b34cbf37d05b061, type: 3}
+    offset: {x: -0.09, y: 1.055}
+    size: {x: 1, y: 2.11}
+  - sprite: {fileID: 21300000, guid: e36e33d2d35d6e14a85864e513c04a30, type: 3}
+    offset: {x: -0.095, y: 1.06}
+    size: {x: 1.01, y: 2.12}
+  - sprite: {fileID: 21300000, guid: de799f52b94102448bd1992c754b517d, type: 3}
+    offset: {x: -0.09, y: 1.06}
+    size: {x: 1.02, y: 2.12}
+  - sprite: {fileID: 21300000, guid: bc7096fc7a2a78d4983b8df5afd76088, type: 3}
+    offset: {x: -0.085, y: 1.065}
+    size: {x: 1.01, y: 2.13}
