@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.68f1 (e1e9baaf294b) revision 14805434'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'ko' Physical Memory: 16265 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-09-22T08:11:47.0270744Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-09-23T00:00:21.566739Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-09-22T08:11:47Z
+Date: 2026-09-23T00:00:21Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.68f1\Editor\Unity.exe
@@ -15,11 +15,13 @@ C:\Program Files\Unity\Hub\Editor\6000.0.68f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-D:/KHHStudy/SoundTest
+C:/KHH/Records/Others/SoundTest
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64520
+58140
+-licensingIpc
+LicenseClient-User
 -job-worker-count
 7
 -background-job-worker-count
@@ -28,8 +30,8 @@ Logs/AssetImportWorker1.log
 1
 -name
 AssetImport
-Successfully changed project path to: D:/KHHStudy/SoundTest
-D:/KHHStudy/SoundTest
+Successfully changed project path to: C:/KHH/Records/Others/SoundTest
+C:/KHH/Records/Others/SoundTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -65,12 +67,23 @@ D:/KHHStudy/SoundTest
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3036]  Target information:
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3744, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              5da288f484b2402db6c77939d3e809f5
+  Correlation Id:          45a9a0a27f60a069ceb75ca6b74b9abd
+  External correlation Id: 5872845355345105047
+  Machine Id:              RlMYbMUMlEXSMmEZEK+lTitTm90=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-09-23T00:00:21.6151585Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+Player connection [17596]  Target information:
 
-Player connection [3036]  * "[IP] 192.168.3.28 [Port] 0 [Flags] 2 [Guid] 3642150289 [EditorId] 3642150289 [Version] 1048832 [Id] WindowsEditor(7,GB02) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17596]  * "[IP] 192.168.3.81 [Port] 0 [Flags] 2 [Guid] 2970040764 [EditorId] 2970040764 [Version] 1048832 [Id] WindowsEditor(7,GI15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3036] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [3036] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17596] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17596] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,37 +95,26 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 141.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.68f1 (e1e9baaf294b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/KHHStudy/SoundTest/Assets
+[Subsystems] Discovering subsystems at path C:/KHH/Records/Others/SoundTest/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   NVIDIA
     VRAM:     5966 MB
-    Driver:   32.0.15.8088
+    Driver:   32.0.15.8180
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              8f935c406cdb471f8c22bc45aac33832
-  Correlation Id:          862e19884eaca393d2cf026fbdad06ae
-  External correlation Id: 7752388930858714294
-  Machine Id:              AmwoRMjgNcFrfdvBrKtWUNFHeUY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.00s, handshake: 1.37s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-09-22T08:11:48.4092753Z"
-[Licensing::Module] Licensing Background thread has ended after 1.38s
-[Licensing::Module] Licensing is initialized (took 0.21s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 14569195361239-UnityPersXXXX
@@ -120,41 +122,41 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.68f1/
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.214718 seconds.
-- Loaded All Assemblies, in  0.896 seconds
+Registered in 0.292431 seconds.
+- Loaded All Assemblies, in  8.759 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 319 ms
+Android Extension - Scanning For ADB Devices 250 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.777 seconds
-Domain Reload Profiling: 1672ms
-	BeginReloadAssembly (331ms)
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 9405ms
+	BeginReloadAssembly (6942ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (276ms)
-	LoadAllAssembliesAndSetupDomain (210ms)
-		LoadAssemblies (328ms)
+	RebuildCommonClasses (370ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (339ms)
+	LoadAllAssembliesAndSetupDomain (1095ms)
+		LoadAssemblies (6949ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (203ms)
-			TypeCache.Refresh (201ms)
-				TypeCache.ScanAssembly (183ms)
+		AnalyzeDomain (1081ms)
+			TypeCache.Refresh (1079ms)
+				TypeCache.ScanAssembly (853ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (777ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (648ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (725ms)
+		SetupLoadedEditorAssemblies (599ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (412ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (145ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			InitializePlatformSupportModulesInManaged (331ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -164,8 +166,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.339 seconds
-Refreshing native plugins compatible for Editor in 4.87 ms, found 4 plugins.
+- Loaded All Assemblies, in  7.803 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -173,269 +175,213 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.220 seconds
-Domain Reload Profiling: 2557ms
-	BeginReloadAssembly (273ms)
+- Finished resetting the current domain, in  0.825 seconds
+Domain Reload Profiling: 8625ms
+	BeginReloadAssembly (197ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (953ms)
-		LoadAssemblies (729ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (7509ms)
+		LoadAssemblies (6879ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (375ms)
-			TypeCache.Refresh (260ms)
-				TypeCache.ScanAssembly (240ms)
-			BuildScriptInfoCaches (90ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1220ms)
+		AnalyzeDomain (736ms)
+			TypeCache.Refresh (642ms)
+				TypeCache.ScanAssembly (618ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (825ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1016ms)
+		SetupLoadedEditorAssemblies (664ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (274ms)
-			ProcessInitializeOnLoadAttributes (579ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.69 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6748 unused Assets / (5.5 MB). Loaded Objects now: 7456.
-Memory consumption went from 148.7 MB to 143.2 MB.
-Total: 15.546800 ms (FindLiveObjects: 1.435200 ms CreateObjectMapping: 1.510200 ms MarkObjects: 6.020300 ms  DeleteObjects: 6.579700 ms)
+Unloading 6748 unused Assets / (4.8 MB). Loaded Objects now: 7456.
+Memory consumption went from 146.6 MB to 141.8 MB.
+Total: 11.621500 ms (FindLiveObjects: 0.916600 ms CreateObjectMapping: 0.764100 ms MarkObjects: 5.980300 ms  DeleteObjects: 3.958500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8298.054066 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4356a4e0efafe2da4e825d4a5b22b180') in 0.0075249 seconds
+  Time since last request: 724.597747 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53fe06f3af3dc15e3ab375079e7f9ec4') in 0.0270594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65636432c56742a06922c04c04ec00a3') in 0.0011318 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a64cda855b9acc629f8d1ac8732bcc2e') in 0.0197075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 106.765416 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/Sound Effects Review.mp3
+  artifactKey: Guid(ad95c3d8cbf276c43bf55b67c12b9779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/Sound Effects Review.mp3 using Guid(ad95c3d8cbf276c43bf55b67c12b9779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d070d61446c77a46ed97dd029e37c83') in 0.1416799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.510765 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIBitField.prefab
-  artifactKey: Guid(7c78b588b2e1f7c4a86ca4a985cf6e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIBitField.prefab using Guid(7c78b588b2e1f7c4a86ca4a985cf6e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67982cdc33c03dba1767836abfc2b750') in 0.0655634 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 612
+  Time since last request: 1293.331823 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Wooden/SFX_UI_Click_Organic_Wooden_Plastic_Negative_Back_2.wav
+  artifactKey: Guid(7abccce1359ba0d4a8421bcc212783c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Wooden/SFX_UI_Click_Organic_Wooden_Plastic_Negative_Back_2.wav using Guid(7abccce1359ba0d4a8421bcc212783c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '728fc6d904372f8ab57a27bd4e7b05d2') in 0.0207277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumHistory.prefab
-  artifactKey: Guid(b2da6b27df236b144b3516ed8e7d36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumHistory.prefab using Guid(b2da6b27df236b144b3516ed8e7d36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8c2344a708d0d8368e1e89b78ab8797') in 0.0043259 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+  Time since last request: 0.000079 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Wooden/SFX_UI_Click_Organic_Wooden_Select_1.wav
+  artifactKey: Guid(c230389cdba1a4d47bda71c4d0e2b6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Wooden/SFX_UI_Click_Organic_Wooden_Select_1.wav using Guid(c230389cdba1a4d47bda71c4d0e2b6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34d47f4fbc3045d2fe7f9bc21a3b7996') in 0.0183418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIGroup.prefab
-  artifactKey: Guid(38a07789c9e87004dad98c2909f58369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIGroup.prefab using Guid(38a07789c9e87004dad98c2909f58369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c55ad4bd1f9b1c9ac9b12af92c919d00') in 0.004321 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Wooden/SFX_UI_Click_Organic_Wooden_Thin_2.wav
+  artifactKey: Guid(cb231dc76449c8e46989b1203a51c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Wooden/SFX_UI_Click_Organic_Wooden_Thin_2.wav using Guid(cb231dc76449c8e46989b1203a51c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ae2feaeedf667b70d0e5a4410df5061') in 0.0112792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHBox.prefab
-  artifactKey: Guid(f7f5e36797cf0c1408561665c67b179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHBox.prefab using Guid(f7f5e36797cf0c1408561665c67b179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '409640440cdb787b429a5b328990a5c9') in 0.0028351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 18.199929 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Sci-Fi/SFX_UI_Click_Designed_Scifi_Flangy_Thick_Generic_1.wav
+  artifactKey: Guid(57e1f2f1d21957d4b9c43052a5ae927f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Sci-Fi/SFX_UI_Click_Designed_Scifi_Flangy_Thick_Generic_1.wav using Guid(57e1f2f1d21957d4b9c43052a5ae927f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e14a245ad1ce2002ef7d202595e402d') in 0.0203529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFoldout.prefab
-  artifactKey: Guid(1c87ab2ce8b8b304d98fbe9a734b1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFoldout.prefab using Guid(1c87ab2ce8b8b304d98fbe9a734b1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7c87b646f3617e8a730bf7abf0a1de4') in 0.0068426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Sci-Fi/SFX_UI_Click_Designed_Scifi_Movement_Open_1.wav
+  artifactKey: Guid(f10e7ff812627164fa39911459400577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Sci-Fi/SFX_UI_Click_Designed_Scifi_Movement_Open_1.wav using Guid(f10e7ff812627164fa39911459400577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49f366744000d8d7f72805d42d7f4d0b') in 0.0177116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab
-  artifactKey: Guid(d8c744701b43c864b88e7f8144e19bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab using Guid(d8c744701b43c864b88e7f8144e19bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7953b110b18228d6679c28d38d44b5ec') in 0.0061905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Sci-Fi/SFX_UI_Click_Designed_Scifi_Thin_Select_1.wav
+  artifactKey: Guid(2ec14d07946c7fe429f08fc058e5b2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Sci-Fi/SFX_UI_Click_Designed_Scifi_Thin_Select_1.wav using Guid(2ec14d07946c7fe429f08fc058e5b2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73617b003b6362b59a1ec49dbdd27ebe') in 0.016255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIColor.prefab
-  artifactKey: Guid(77c185820dd1a464eac89cae3abccddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIColor.prefab using Guid(77c185820dd1a464eac89cae3abccddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '084c074f9e6ca8a67d5a815b8f8cce70') in 0.0070499 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+  Time since last request: 0.000042 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Sci-Fi/SFX_UI_Click_Designed_Scifi_Thick_Negative_Close_1.wav
+  artifactKey: Guid(efc3f2eb62e42f44b849b70d51c2fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Sci-Fi/SFX_UI_Click_Designed_Scifi_Thick_Negative_Close_1.wav using Guid(efc3f2eb62e42f44b849b70d51c2fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8750c50c8a9f8ad0a96a354f3ff5b8bf') in 0.0130128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.507067 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Designed_Pop_Movement_Open_1.wav
+  artifactKey: Guid(2b8670b132d29984c93743808adbfcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Designed_Pop_Movement_Open_1.wav using Guid(2b8670b132d29984c93743808adbfcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e64037ca18d79eec2843f2c8ffed47ef') in 0.0184841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Designed_Pop_Plastic_Crispy_Generic_1.wav
+  artifactKey: Guid(d4b4564ad8ca7254c9d41efb905858eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Designed_Pop_Plastic_Crispy_Generic_1.wav using Guid(d4b4564ad8ca7254c9d41efb905858eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '888547fcad3e0530fdcef8d3ce1f3ca7') in 0.0160454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Organic_Pop_Metallic_Negative_Locked_1.wav
+  artifactKey: Guid(ae9ac757ba0b39e4f91369d167331c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Organic_Pop_Metallic_Negative_Locked_1.wav using Guid(ae9ac757ba0b39e4f91369d167331c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6a24e2935dff6945b26645f95c1f76e') in 0.0149758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIButton.prefab
-  artifactKey: Guid(f6ce33b91f6ffe54cadacbf4bb112440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIButton.prefab using Guid(f6ce33b91f6ffe54cadacbf4bb112440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9d2de317691dcd68ca85aa01a04af95') in 0.0064912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIIntField.prefab
-  artifactKey: Guid(ae00bb75e0cd5b04b8fe7fb4ab662629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIIntField.prefab using Guid(ae00bb75e0cd5b04b8fe7fb4ab662629) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80772201cb89ec8cd834d72e6098e6c5') in 0.0037447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab
-  artifactKey: Guid(988db55689193434fb0b3b89538f978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab using Guid(988db55689193434fb0b3b89538f978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d1b45194ec068358fcdafaca8cb3889') in 0.0030505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHandlerRenderingLayerField.prefab
-  artifactKey: Guid(928d1ca04af80c84e8d5dabc18095d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHandlerRenderingLayerField.prefab using Guid(928d1ca04af80c84e8d5dabc18095d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb9cb1ba19f5847fbbf8231522e620ea') in 0.0129249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 612
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab
-  artifactKey: Guid(cf6cbdd672089a84796e55a21fed1cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab using Guid(cf6cbdd672089a84796e55a21fed1cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e011faf766434ceedb03457830d51bd') in 0.0665687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1965
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.116836 seconds.
-  path: Packages/com.unity.2d.psdimporter/Editor/Assets/pivot.fbx
-  artifactKey: Guid(1c7762c9bce5f4ab7b060decb9e3002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/pivot.fbx using Guid(1c7762c9bce5f4ab7b060decb9e3002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27aaefdf1185d7fbd30ff52df1d2bf92') in 0.9148133 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 293.079330 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-02.wav
-  artifactKey: Guid(dc6614beca09347ec9b258f12d154bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-02.wav using Guid(dc6614beca09347ec9b258f12d154bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41d704cee79a659767a13498c56f639f') in 0.058569 seconds
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Organic_Pop_Liquid_Thick_Generic_1.wav
+  artifactKey: Guid(ebb03b2b009894845b81a64051a5c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Organic_Pop_Liquid_Thick_Generic_1.wav using Guid(ebb03b2b009894845b81a64051a5c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '942b10a948656f6ca5b8a1d991d0533d') in 0.0147525 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-22.wav
-  artifactKey: Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-22.wav using Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb3b9524da5d28cdca81810af626cd99') in 0.0155867 seconds
+  Time since last request: 29.099250 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Bouncy_Generic_1.wav
+  artifactKey: Guid(b6c37a87a1e05c0418ce0605b46401d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Bouncy_Generic_1.wav using Guid(b6c37a87a1e05c0418ce0605b46401d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '174fd83bb6d5b7ee2ffda9aef1e6966a') in 0.0152229 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-16.wav
-  artifactKey: Guid(724131bc8a7f34041bb9f1701f0cb58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-16.wav using Guid(724131bc8a7f34041bb9f1701f0cb58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e329b6ade33bcfecaa4f4d17625db4ad') in 0.0228419 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Select_1.wav
+  artifactKey: Guid(3863ffc05ef130743a6ef7bcbdef0df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Select_1.wav using Guid(3863ffc05ef130743a6ef7bcbdef0df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '782fc755d78cd5a74bab339978182183') in 0.0140796 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-12.wav
-  artifactKey: Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-12.wav using Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0116c3a758e61c2fcac8e2bbd9e9e87d') in 0.0187723 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Metallic_Thin_Generic_2.wav
+  artifactKey: Guid(4dcf7646d49135146a3acdd3bbc4fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Metallic_Thin_Generic_2.wav using Guid(4dcf7646d49135146a3acdd3bbc4fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bcf250afe3e3fc6b96865925c11bcf1') in 0.0138131 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-11.wav
-  artifactKey: Guid(a0010a1a0c474473b81729eb770c485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-11.wav using Guid(a0010a1a0c474473b81729eb770c485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6bf54cb6c8894c4d81d8469abac3ee1') in 0.0268203 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Soft_Generic_1.wav
+  artifactKey: Guid(9e47b190e12f3d64ab67580401700dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Soft_Generic_1.wav using Guid(9e47b190e12f3d64ab67580401700dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '504121415ba60d58071e727f384101cf') in 0.0111434 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-26.wav
-  artifactKey: Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-26.wav using Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebadf9af88f9ea27d20da0c381eba63c') in 0.0187095 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Negative_2.wav
+  artifactKey: Guid(f5d099c7a40edb844a583ee1693ea567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Negative_2.wav using Guid(f5d099c7a40edb844a583ee1693ea567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a955ea313a649dc13842f81827679c7') in 0.0133082 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-10.wav
-  artifactKey: Guid(cabfae866cab347928b74b7d0ca6bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-10.wav using Guid(cabfae866cab347928b74b7d0ca6bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68d0df557c8a65cdef7884498f8d1a3c') in 0.0219282 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Mouth_Generic_1.wav
+  artifactKey: Guid(688b088e472e01143a9d638c977baee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Mouth_Generic_1.wav using Guid(688b088e472e01143a9d638c977baee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ab707a405bbb633b630805ed2b45475') in 0.0143823 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-15.wav
-  artifactKey: Guid(0c008ee3ee72a4362a35be25fa5de043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-15.wav using Guid(0c008ee3ee72a4362a35be25fa5de043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd354ec89ea81d4aea188d9f0543cc189') in 0.0177605 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-23.wav
-  artifactKey: Guid(a0ca8964c08d54c5dbebf245bdc474ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-23.wav using Guid(a0ca8964c08d54c5dbebf245bdc474ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8b3ca3daa93a38d6ffcca74aa0fe49f') in 0.030265 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-05.wav
-  artifactKey: Guid(b99da9a57308d4ba1bee1cf1d9038376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-05.wav using Guid(b99da9a57308d4ba1bee1cf1d9038376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddeba3a4dd37c7ee871b1d078377be34') in 0.0505656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-09.wav
-  artifactKey: Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-09.wav using Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ea2242675c46cb0c8064aac94e909a5') in 0.0238427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-03.wav
-  artifactKey: Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-03.wav using Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e68f2dc742966f6986c3e2e252665e02') in 0.0143004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-06.wav
-  artifactKey: Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Casual Game Sounds U6/CasualGameSounds/DM-CGS-06.wav using Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc14b76c9a6c54d221250a0747078be5') in 0.016205 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Generic_1.wav
+  artifactKey: Guid(975ecd8fa11a8504aa3bd2d0779d289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Generic_1.wav using Guid(975ecd8fa11a8504aa3bd2d0779d289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d221b9b81d4b50403767483384466fb') in 0.0132041 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
