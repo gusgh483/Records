@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.68f1 (e1e9baaf294b) revision 14805434'; Using compiler version '193933523'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-09-22T08:43:11.9241759Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-09-23T01:06:21.7666844Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'ko' Physical Memory: 16265 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-09-22T08:43:11Z
+Date: 2026-09-23T01:06:21Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.68f1\Editor\Unity.exe
@@ -15,11 +15,13 @@ C:\Program Files\Unity\Hub\Editor\6000.0.68f1\Editor\Unity.exe
 -name
 AssetImportWorker15
 -projectPath
-D:/KHHStudy/SoundTest
+C:/KHH/Records/Others/SoundTest
 -logFile
 Logs/AssetImportWorker15.log
 -srvPort
-64520
+58140
+-licensingIpc
+LicenseClient-User
 -job-worker-count
 7
 -background-job-worker-count
@@ -28,8 +30,8 @@ Logs/AssetImportWorker15.log
 1
 -name
 AssetImport
-Successfully changed project path to: D:/KHHStudy/SoundTest
-D:/KHHStudy/SoundTest
+Successfully changed project path to: C:/KHH/Records/Others/SoundTest
+C:/KHH/Records/Others/SoundTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -65,12 +67,23 @@ D:/KHHStudy/SoundTest
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26596]  Target information:
+Player connection [18924]  Target information:
 
-Player connection [26596]  * "[IP] 192.168.3.28 [Port] 0 [Flags] 2 [Guid] 699677160 [EditorId] 699677160 [Version] 1048832 [Id] WindowsEditor(7,GB02) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18924]  * "[IP] 192.168.3.81 [Port] 0 [Flags] 2 [Guid] 3249912130 [EditorId] 3249912130 [Version] 1048832 [Id] WindowsEditor(7,GI15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26596] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26596] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3744, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              cef8cf405514439ca4e8dee62de76c22
+  Correlation Id:          45a9a0a27f60a069ceb75ca6b74b9abd
+  External correlation Id: 3743574870401319622
+  Machine Id:              RlMYbMUMlEXSMmEZEK+lTitTm90=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-09-23T01:06:21.8302178Z"
+Player connection [18924] Host joined multi-casting on [225.0.0.222:54997]...
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+Player connection [18924] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,37 +95,26 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.68f1 (e1e9baaf294b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/KHHStudy/SoundTest/Assets
+[Subsystems] Discovering subsystems at path C:/KHH/Records/Others/SoundTest/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   NVIDIA
     VRAM:     5966 MB
-    Driver:   32.0.15.8088
+    Driver:   32.0.15.8180
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              576aed8260e54e4298e24af807e575c6
-  Correlation Id:          862e19884eaca393d2cf026fbdad06ae
-  External correlation Id: 8212388612831560002
-  Machine Id:              AmwoRMjgNcFrfdvBrKtWUNFHeUY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.00s, handshake: 0.72s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-09-22T08:43:12.6460252Z"
-[Licensing::Module] Licensing Background thread has ended after 0.72s
-[Licensing::Module] Licensing is initialized (took 0.11s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 14569195361239-UnityPersXXXX
@@ -120,41 +122,41 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.68f1/
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.115990 seconds.
-- Loaded All Assemblies, in  0.446 seconds
+Registered in 0.004811 seconds.
+- Loaded All Assemblies, in  0.417 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 204 ms
+Android Extension - Scanning For ADB Devices 232 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.516 seconds
-Domain Reload Profiling: 962ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  0.578 seconds
+Domain Reload Profiling: 993ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (155ms)
-	LoadAllAssembliesAndSetupDomain (126ms)
-		LoadAssemblies (118ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (146ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (122ms)
-				TypeCache.ScanAssembly (111ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (148ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (517ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (579ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
+		SetupLoadedEditorAssemblies (535ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (277ms)
+			InitializePlatformSupportModulesInManaged (322ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (92ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -164,8 +166,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.742 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.765 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -173,44 +175,507 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.796 seconds
-Domain Reload Profiling: 1537ms
-	BeginReloadAssembly (171ms)
+- Finished resetting the current domain, in  0.742 seconds
+Domain Reload Profiling: 1504ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (31ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (44ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (492ms)
-		LoadAssemblies (358ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (505ms)
+		LoadAssemblies (335ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (163ms)
-				TypeCache.ScanAssembly (147ms)
-			BuildScriptInfoCaches (56ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (157ms)
+			BuildScriptInfoCaches (71ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (797ms)
+	FinalizeReload (742ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (679ms)
+		SetupLoadedEditorAssemblies (610ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (159ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6748 unused Assets / (4.1 MB). Loaded Objects now: 7456.
-Memory consumption went from 148.7 MB to 144.6 MB.
-Total: 6.723700 ms (FindLiveObjects: 0.637800 ms CreateObjectMapping: 0.507100 ms MarkObjects: 3.795400 ms  DeleteObjects: 1.782700 ms)
+Unloading 6749 unused Assets / (4.5 MB). Loaded Objects now: 7457.
+Memory consumption went from 150.6 MB to 146.1 MB.
+Total: 8.593300 ms (FindLiveObjects: 0.842200 ms CreateObjectMapping: 0.744700 ms MarkObjects: 4.558400 ms  DeleteObjects: 2.446900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4704.631008 seconds.
+  path: Assets/88.SfxBox/Player
+  artifactKey: Guid(ac31b82da154c414db2c62397e6db0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/Player using Guid(ac31b82da154c414db2c62397e6db0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26bfa85fd15dfdcf9c89fe5275b6ac7a') in 0.0042758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.350603 seconds.
+  path: Assets/88.SfxBox/Enemy
+  artifactKey: Guid(b4b74e1873ab3b04a9f667c1248b0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/Enemy using Guid(b4b74e1873ab3b04a9f667c1248b0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28725bbe671acbdf941b10ca3b3bc3a7') in 0.0079631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.820986 seconds.
+  path: Assets/88.SfxBox/System
+  artifactKey: Guid(a5fc94b77eb35334893bfcb58169926d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/System using Guid(a5fc94b77eb35334893bfcb58169926d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd064ae04c1e502af979e9b84c8c83868') in 0.0007994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.761476 seconds.
+  path: Assets/88.SfxBox/Player/Shooting
+  artifactKey: Guid(b61f7b2e53791bf47997e44c7999fa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/Player/Shooting using Guid(b61f7b2e53791bf47997e44c7999fa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec000c00201cee7468977fef43331e77') in 0.0006315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.227158 seconds.
+  path: Assets/88.SfxBox/Player/Hit
+  artifactKey: Guid(1569f62b1e4fb4b40b2e4e97900a125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/Player/Hit using Guid(1569f62b1e4fb4b40b2e4e97900a125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50e8c0a7b800f606e7222eed22802015') in 0.0010107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.673528 seconds.
+  path: Assets/88.SfxBox/Player/Dead
+  artifactKey: Guid(6d0334daa96694d43815557e651c18ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/Player/Dead using Guid(6d0334daa96694d43815557e651c18ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39d58264fd1873a569ee77c56b01e14d') in 0.0006023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.614287 seconds.
+  path: Assets/88.SfxBox/Enemy/Shoot
+  artifactKey: Guid(d91022eaad7e87d44a10c065dd9e35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/Enemy/Shoot using Guid(d91022eaad7e87d44a10c065dd9e35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5620047a5c77a3a9a0f788e695db436d') in 0.0008415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.084767 seconds.
+  path: Assets/88.SfxBox/Enemy/Shooting
+  artifactKey: Guid(d91022eaad7e87d44a10c065dd9e35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/Enemy/Shooting using Guid(d91022eaad7e87d44a10c065dd9e35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '081c8ba1f90ee98b970fffdb09edd869') in 0.0007136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.116676 seconds.
+  path: Assets/88.SfxBox/Enemy/Hit
+  artifactKey: Guid(f864125626ff54248adee7f4760a9388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/Enemy/Hit using Guid(f864125626ff54248adee7f4760a9388) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c91f32cb6007431bfcf8e481ff123d3b') in 0.0006314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.712154 seconds.
+  path: Assets/88.SfxBox/Enemy/Dead
+  artifactKey: Guid(7ade77afacfc2d84a8fa1421897bfb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/Enemy/Dead using Guid(7ade77afacfc2d84a8fa1421897bfb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6b90b1b4c4a649a7267b669860b1e4f') in 0.0005451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 437.029163 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Sci-Fi
+  artifactKey: Guid(512303abbbd0dab409a3392858da4e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Sci-Fi using Guid(512303abbbd0dab409a3392858da4e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '579fdfb2eb527af522ccaef119823684') in 0.0007646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.575247 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Keyboard_Enter_Thick_1.wav
+  artifactKey: Guid(245965889d0a183438ef3478b27122c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Keyboard_Enter_Thick_1.wav using Guid(245965889d0a183438ef3478b27122c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afde9233add29ce5de56fe12507260fd') in 0.1523922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Organic_Plastic_Thin_Generic_4.wav
+  artifactKey: Guid(3fbec5a8ff835b34098436a9a752f675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Organic_Plastic_Thin_Generic_4.wav using Guid(3fbec5a8ff835b34098436a9a752f675) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '288569e79cad1fed597e4f7b828c0b91') in 0.0138689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Organic_Plastic_Thin_Select_1.wav
+  artifactKey: Guid(44a5d716536c11248a09ee1a54d5d168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Organic_Plastic_Thin_Select_1.wav using Guid(44a5d716536c11248a09ee1a54d5d168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd08f534a9e496e14345589ac8d5db9e') in 0.0142138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Keyboard_Space_Thick_1.wav
+  artifactKey: Guid(89dc6bbba2ae6c54a9e835dbe6fbf288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Keyboard_Space_Thick_1.wav using Guid(89dc6bbba2ae6c54a9e835dbe6fbf288) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fb4a6b302a878be55fb324133705898') in 0.012178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Mouse_Thick_Generic_2.wav
+  artifactKey: Guid(4a09040e8e6916c4aae24278581e6b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Mouse_Thick_Generic_2.wav using Guid(4a09040e8e6916c4aae24278581e6b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f37dc2a1b6ef8bca09c43714495eaeb5') in 0.0136088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Keyboard_Space_Thick_2.wav
+  artifactKey: Guid(9b05bf85194a6994e87a326b55b12087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Keyboard_Space_Thick_2.wav using Guid(9b05bf85194a6994e87a326b55b12087) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75621f64ffbab52f21f10a8752c1fe71') in 0.0166255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Mouse_Huge_Generic_3.wav
+  artifactKey: Guid(52104bc3637e70540be457e0ba1ba9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Mouse_Huge_Generic_3.wav using Guid(52104bc3637e70540be457e0ba1ba9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8ef5a879cfb2a01dceed3fc13811f49') in 0.0179455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Organic_Plastic_Thin_Negative_1.wav
+  artifactKey: Guid(3d1fc54a2f6df7840a89b832c0c32427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Organic_Plastic_Thin_Negative_1.wav using Guid(3d1fc54a2f6df7840a89b832c0c32427) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '366c50da6bf1408c744f31be8eff39ba') in 0.014248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Organic_Plastic_Metallic_Generic_1.wav
+  artifactKey: Guid(087224dd7ec352f42a3b950a07009a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Organic_Plastic_Metallic_Generic_1.wav using Guid(087224dd7ec352f42a3b950a07009a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92dd85d58fc97c645d0a1ee17b132a81') in 0.0137686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Organic_Plastic_Generic_2.wav
+  artifactKey: Guid(aebae0e89d575dc43ae340319487ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free UI Click Sound Effects Pack/AUDIO/Button/SFX_UI_Button_Organic_Plastic_Generic_2.wav using Guid(aebae0e89d575dc43ae340319487ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efb1cc1ed390dd44ea9f2839e32c83c3') in 0.0132015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.690472 seconds.
+  path: Assets/00.Store/Free Pack
+  artifactKey: Guid(08288b65ec1515c4084bc800932fef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/Free Pack using Guid(08288b65ec1515c4084bc800932fef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa38286b863a1d21e33849cf7d6f23fa') in 0.0008529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.585175 seconds.
+  path: Assets/88.SfxBox/1.Player
+  artifactKey: Guid(ac31b82da154c414db2c62397e6db0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/1.Player using Guid(ac31b82da154c414db2c62397e6db0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb4148ea6bb0a1cc117793fc90bee35b') in 0.0007528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.065287 seconds.
+  path: Assets/88.SfxBox/0.System
+  artifactKey: Guid(a5fc94b77eb35334893bfcb58169926d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/0.System using Guid(a5fc94b77eb35334893bfcb58169926d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee5bb432671d056bbf413f8e2a59fe9f') in 0.0006881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 384.328558 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/AssaultRifle
+  artifactKey: Guid(949b4649bdf97754ea2aa9eb69fa89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/AssaultRifle using Guid(949b4649bdf97754ea2aa9eb69fa89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '875e6ae0462acd66a0ef9556fe066bcb') in 0.0008311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.575222 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/AssaultRifle/Foley
+  artifactKey: Guid(6af4cd27c201b2d48addafc98bd9fa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/AssaultRifle/Foley using Guid(6af4cd27c201b2d48addafc98bd9fa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b33bd277786ef110774f0ec654ccc5df') in 0.0006477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009479 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/AssaultRifle/Foley/01_assault_rifle_reload_1_drop_the_mag.wav
+  artifactKey: Guid(0de87080feb9e4d46b1133b7a197ac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/AssaultRifle/Foley/01_assault_rifle_reload_1_drop_the_mag.wav using Guid(0de87080feb9e4d46b1133b7a197ac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee5503e2b385aec10c05f3b2b53be72f') in 0.0165637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/AssaultRifle/Foley/assault_rifle_mag_draw.wav
+  artifactKey: Guid(0d4a3c6266b38ec4ebcd1286605e558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/AssaultRifle/Foley/assault_rifle_mag_draw.wav using Guid(0d4a3c6266b38ec4ebcd1286605e558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ae78d7b629b5958c32472d95a3a7187') in 0.0116913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/AssaultRifle/Foley/assault_rifle_weapon_equip.wav
+  artifactKey: Guid(fc675cf8365542549aa7b2d58d54583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/AssaultRifle/Foley/assault_rifle_weapon_equip.wav using Guid(fc675cf8365542549aa7b2d58d54583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08a5574bbdeb0d23aeed05ca6a38a413') in 0.0118358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/AssaultRifle/Foley/03_assault_rifle_reload_1_bolt.wav
+  artifactKey: Guid(82ab12c3d05cb3244a685281f8934e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/AssaultRifle/Foley/03_assault_rifle_reload_1_bolt.wav using Guid(82ab12c3d05cb3244a685281f8934e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e728aaf6e074210cf43990f9c4eed0fb') in 0.0137527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.452714 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/AssaultRifle/Gunshots
+  artifactKey: Guid(3a63a7cf52e52ae4eb6a7827bfc5b9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/AssaultRifle/Gunshots using Guid(3a63a7cf52e52ae4eb6a7827bfc5b9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1494483695685410532fc49c0efdbe1c') in 0.0005557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003052 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/AssaultRifle/Gunshots/assault_rifle_gunshot_01.wav
+  artifactKey: Guid(74fd11f66ca8110418be57a810d2fad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/AssaultRifle/Gunshots/assault_rifle_gunshot_01.wav using Guid(74fd11f66ca8110418be57a810d2fad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cb84fa6e0b7d387b8e4f2640c774c95') in 0.0175368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/AssaultRifle/Gunshots/assault_rifle_tail_02.wav
+  artifactKey: Guid(2fb7045f568cada42835f0a2c1a70047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/AssaultRifle/Gunshots/assault_rifle_tail_02.wav using Guid(2fb7045f568cada42835f0a2c1a70047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b013bd655f2facf9d8b15e3f20177d74') in 0.0154885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/AssaultRifle/Gunshots/assault_rifle_sil_gunshot_03.wav
+  artifactKey: Guid(a05d3ff7e16d61c43b85a73ae1b3bf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/AssaultRifle/Gunshots/assault_rifle_sil_gunshot_03.wav using Guid(a05d3ff7e16d61c43b85a73ae1b3bf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fdeb213b99befcd25d1bd3ffa5a9cff') in 0.0169818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.023815 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/Handgun/Gunshots
+  artifactKey: Guid(314d2949e0ebe5749bf2c21b9691a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/Handgun/Gunshots using Guid(314d2949e0ebe5749bf2c21b9691a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a315e5229d97e9ca0a478acfd1966a52') in 0.0006315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028303 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/Handgun/Gunshots/handgun_gunshot_01.wav
+  artifactKey: Guid(f9ab20b4342184a46921955b3300481d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/Handgun/Gunshots/handgun_gunshot_01.wav using Guid(f9ab20b4342184a46921955b3300481d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8942360e456ce65d5d618c00da80fef') in 0.0156831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/Handgun/Gunshots/handgun_tail_01.wav
+  artifactKey: Guid(3b131f2fa78d5cd408ab2d655e52f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/Handgun/Gunshots/handgun_tail_01.wav using Guid(3b131f2fa78d5cd408ab2d655e52f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78e9a45051bc2ef248ad889ed4bc1d27') in 0.0144988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/00.Store/FreeWeaponSounds/Handgun/Gunshots/handgun_sil_gunshot_02.wav
+  artifactKey: Guid(49fc436170a5c1444a98e6fe61659877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.Store/FreeWeaponSounds/Handgun/Gunshots/handgun_sil_gunshot_02.wav using Guid(49fc436170a5c1444a98e6fe61659877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7335a317487db6c3b2bad152e9de218') in 0.0145879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.164131 seconds.
+  path: Assets/88.SfxBox/0.System/Wrong
+  artifactKey: Guid(2b12ebd0fbffbb04b8a088ab6440dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/0.System/Wrong using Guid(2b12ebd0fbffbb04b8a088ab6440dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc97e949fae5cecd15215d7b23c0b927') in 0.0006646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.474330 seconds.
+  path: Assets/88.SfxBox/0.System/Lose
+  artifactKey: Guid(66aedb043ba8a6b438b5693b14e57dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/0.System/Lose using Guid(66aedb043ba8a6b438b5693b14e57dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0dd9d46cec24f72cd9028b22fc98b95') in 0.0008108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.987748 seconds.
+  path: Assets/88.SfxBox/0.System/Stop
+  artifactKey: Guid(407ea9ec4d64c894783de41b5c8067ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/88.SfxBox/0.System/Stop using Guid(407ea9ec4d64c894783de41b5c8067ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6908a925d0719a877322ad64e5a10dbe') in 0.0009357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6737 unused Assets / (4.6 MB). Loaded Objects now: 7470.
+Memory consumption went from 153.4 MB to 148.7 MB.
+Total: 11.220600 ms (FindLiveObjects: 0.953500 ms CreateObjectMapping: 0.785400 ms MarkObjects: 6.165400 ms  DeleteObjects: 3.315500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.629 seconds
+Domain Reload Profiling: 1362ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (345ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (174ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (629ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (489ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6747 unused Assets / (4.0 MB). Loaded Objects now: 7473.
+Memory consumption went from 156.4 MB to 152.4 MB.
+Total: 6.924600 ms (FindLiveObjects: 0.643100 ms CreateObjectMapping: 0.507800 ms MarkObjects: 3.800400 ms  DeleteObjects: 1.972700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 396.132048 seconds.
+  path: Assets/00.SfxBox/0.System/Freezing
+  artifactKey: Guid(bce193f8038d57447a2882d1e471ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.SfxBox/0.System/Freezing using Guid(bce193f8038d57447a2882d1e471ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acb3605ce9e9618e01fde3e67b761d1e') in 0.0130704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/00.SfxBox/2.Enemy/Dead
+  artifactKey: Guid(dd797817e44e8fc4785ba26e04de8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.SfxBox/2.Enemy/Dead using Guid(dd797817e44e8fc4785ba26e04de8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baf605b5457c6bf87c24ab802cd91343') in 0.000549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/00.SfxBox/0.System/Click
+  artifactKey: Guid(c9c4a81411eb1304189d43cab6679114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.SfxBox/0.System/Click using Guid(c9c4a81411eb1304189d43cab6679114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da659611cc62ed19cec6da180fad6881') in 0.0005029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/00.SfxBox/2.Enemy
+  artifactKey: Guid(b4b74e1873ab3b04a9f667c1248b0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.SfxBox/2.Enemy using Guid(b4b74e1873ab3b04a9f667c1248b0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8898553315cc5157f172fb47cebe905') in 0.0005756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/00.SfxBox/0.System/Win
+  artifactKey: Guid(22c52b440603d274097b66aa06739a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.SfxBox/0.System/Win using Guid(22c52b440603d274097b66aa06739a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a36389f74e21d9cb8898b7a745124fd') in 0.0004926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/00.SfxBox/0.System/GetItem
+  artifactKey: Guid(05d2f2fdd3a5cfc4b9aaf02f92d21586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.SfxBox/0.System/GetItem using Guid(05d2f2fdd3a5cfc4b9aaf02f92d21586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee43f30bb4748f667f93bcf32a96445d') in 0.0004831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/00.SfxBox/0.System/Upgrade
+  artifactKey: Guid(2c9e226bb09521543b9899965beadb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.SfxBox/0.System/Upgrade using Guid(2c9e226bb09521543b9899965beadb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff749e44b44a04a9056aa2996ecf347b') in 0.0005386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/00.SfxBox/1.Player/Dead
+  artifactKey: Guid(269ae63e15912624d9d4bc72b915fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.SfxBox/1.Player/Dead using Guid(269ae63e15912624d9d4bc72b915fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf770a5752defebb77ff971958c666af') in 0.0005839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/00.SfxBox
+  artifactKey: Guid(7ab5a69919739ed46b1e7f02dee89657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00.SfxBox using Guid(7ab5a69919739ed46b1e7f02dee89657) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '022bf0f6bf24aa03570295f55423dfdc') in 0.0005503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
