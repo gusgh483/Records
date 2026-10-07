@@ -1,6 +1,0 @@
-{
-	"Name": "Player",
-	"HP": "100",
-	"Attack": "20",
-	"Defence": "5",
-}
