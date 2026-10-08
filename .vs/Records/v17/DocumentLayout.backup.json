@@ -22,8 +22,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 664,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +40,7 @@
               "RelativeDocumentMoniker": "Others\\TeamProject\\1.WeekRecord_10_2.md",
               "ToolTip": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
               "RelativeToolTip": "Others\\TeamProject\\1.WeekRecord_10_2.md",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwC8AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwCcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-10-07T23:59:37.916Z",
               "EditorCaption": ""
@@ -47,16 +55,7 @@
               "RelativeToolTip": "Others\\TeamProject\\0.Teamroject.md",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-10-07T23:56:48.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2026-10-07T23:56:48.549Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-11T04:01:59.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T04:01:59.866Z"
             }
           ]
         }
