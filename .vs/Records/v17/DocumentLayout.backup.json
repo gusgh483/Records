@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Others\\TeamProject\\1.WeekRecord_10_2.md",
               "ToolTip": "D:\\KHHStudy\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
               "RelativeToolTip": "Others\\TeamProject\\1.WeekRecord_10_2.md",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-10-07T08:57:50.919Z",
               "EditorCaption": ""
@@ -73,7 +73,7 @@
               "RelativeDocumentMoniker": "Others\\TeamProject\\0.Teamroject.md",
               "ToolTip": "D:\\KHHStudy\\Records\\Others\\TeamProject\\0.Teamroject.md",
               "RelativeToolTip": "Others\\TeamProject\\0.Teamroject.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-10-07T08:29:49.914Z",
               "EditorCaption": ""
@@ -88,8 +88,7 @@
               "RelativeToolTip": "Theory\\1Keywords.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-29T06:55:46.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T06:55:46.153Z"
             },
             {
               "$type": "Document",
@@ -101,8 +100,7 @@
               "RelativeToolTip": "Theory\\2Unity\\UnityGraphics\\UnityGraphics.md",
               "ViewState": "AgIAAC4BAAAAAAAAAAAAADsBAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-10T05:46:37.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T05:46:37.657Z"
             },
             {
               "$type": "Document",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "Theory\\2Unity.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-10T05:04:10.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T05:04:10.127Z"
             },
             {
               "$type": "Document",
@@ -127,8 +124,7 @@
               "RelativeToolTip": "Theory\\2Unity\\Build\\AndroidBuild.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-10T05:04:57.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T05:04:57.692Z"
             },
             {
               "$type": "Document",
@@ -140,8 +136,7 @@
               "RelativeToolTip": "Memo.md",
               "ViewState": "AgIAAGkBAAAAAAAAAAAAAHsBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-08-27T05:46:47.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-27T05:46:47.88Z"
             },
             {
               "$type": "Document",
@@ -153,8 +148,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-11T04:01:59.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T04:01:59.866Z"
             }
           ]
         }
