@@ -1,38 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\KHHStudy\\Records\\",
+  "WorkspaceRootPath": "C:\\KHH\\Records\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\1.WeekRecord_10_2.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\1.WeekRecord_10_2.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Others\\TeamProject\\0.Teamroject.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\0.Teamroject.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Others\\TeamProject\\0.Teamroject.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\0.Teamroject.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Theory\\1Keywords.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\1Keywords.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Memo.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Memo.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Theory\\2Unity.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\2Unity.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Theory\\2Unity\\UnityGraphics\\UnityGraphics.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\2Unity\\UnityGraphics\\UnityGraphics.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Theory\\2Unity\\Build\\AndroidBuild.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Theory\\2Unity\\Build\\AndroidBuild.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 664,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "1.WeekRecord_10_2.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
+              "RelativeDocumentMoniker": "Others\\TeamProject\\1.WeekRecord_10_2.md",
+              "ToolTip": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
+              "RelativeToolTip": "Others\\TeamProject\\1.WeekRecord_10_2.md",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwC8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-07T23:59:37.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "0.Teamroject.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Others\\TeamProject\\0.Teamroject.md",
+              "RelativeDocumentMoniker": "Others\\TeamProject\\0.Teamroject.md",
+              "ToolTip": "C:\\KHH\\Records\\Others\\TeamProject\\0.Teamroject.md",
+              "RelativeToolTip": "Others\\TeamProject\\0.Teamroject.md",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-07T23:56:48.549Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -54,101 +60,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "1.WeekRecord_10_2.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
-              "RelativeDocumentMoniker": "Others\\TeamProject\\1.WeekRecord_10_2.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
-              "RelativeToolTip": "Others\\TeamProject\\1.WeekRecord_10_2.md",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-10-07T08:57:50.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "0.Teamroject.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Others\\TeamProject\\0.Teamroject.md",
-              "RelativeDocumentMoniker": "Others\\TeamProject\\0.Teamroject.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Others\\TeamProject\\0.Teamroject.md",
-              "RelativeToolTip": "Others\\TeamProject\\0.Teamroject.md",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-10-07T08:29:49.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "1Keywords.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Theory\\1Keywords.md",
-              "RelativeDocumentMoniker": "Theory\\1Keywords.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Theory\\1Keywords.md",
-              "RelativeToolTip": "Theory\\1Keywords.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-29T06:55:46.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UnityGraphics.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Theory\\2Unity\\UnityGraphics\\UnityGraphics.md",
-              "RelativeDocumentMoniker": "Theory\\2Unity\\UnityGraphics\\UnityGraphics.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Theory\\2Unity\\UnityGraphics\\UnityGraphics.md",
-              "RelativeToolTip": "Theory\\2Unity\\UnityGraphics\\UnityGraphics.md",
-              "ViewState": "AgIAAC4BAAAAAAAAAAAAADsBAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-10T05:46:37.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "2Unity.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Theory\\2Unity.md",
-              "RelativeDocumentMoniker": "Theory\\2Unity.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Theory\\2Unity.md",
-              "RelativeToolTip": "Theory\\2Unity.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-10T05:04:10.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AndroidBuild.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Theory\\2Unity\\Build\\AndroidBuild.md",
-              "RelativeDocumentMoniker": "Theory\\2Unity\\Build\\AndroidBuild.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Theory\\2Unity\\Build\\AndroidBuild.md",
-              "RelativeToolTip": "Theory\\2Unity\\Build\\AndroidBuild.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-10T05:04:57.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Memo.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Memo.md",
-              "RelativeDocumentMoniker": "Memo.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Memo.md",
-              "RelativeToolTip": "Memo.md",
-              "ViewState": "AgIAAGkBAAAAAAAAAAAAAHsBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-08-27T05:46:47.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "README.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\README.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\README.md",
               "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\README.md",
+              "ToolTip": "C:\\KHH\\Records\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-11T04:01:59.866Z"
+              "WhenOpened": "2026-06-11T04:01:59.866Z",
+              "EditorCaption": ""
             }
           ]
         }
