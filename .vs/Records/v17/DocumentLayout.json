@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\KHH\\Records\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_3.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\1.WeekRecord_10_3.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\1.WeekRecord_10_2.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Others\\TeamProject\\0.Teamroject.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\0.Teamroject.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Others\\TeamProject\\0.TeamProject.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\0.TeamProject.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -35,24 +39,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "1.WeekRecord_10_3.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_3.md",
+              "RelativeDocumentMoniker": "Others\\TeamProject\\1.WeekRecord_10_3.md",
+              "ToolTip": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_3.md",
+              "RelativeToolTip": "Others\\TeamProject\\1.WeekRecord_10_3.md",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-12T02:59:24.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "1.WeekRecord_10_2.md",
               "DocumentMoniker": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
               "RelativeDocumentMoniker": "Others\\TeamProject\\1.WeekRecord_10_2.md",
               "ToolTip": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
               "RelativeToolTip": "Others\\TeamProject\\1.WeekRecord_10_2.md",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-10-07T23:59:37.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "0.Teamroject.md",
-              "DocumentMoniker": "C:\\KHH\\Records\\Others\\TeamProject\\0.Teamroject.md",
-              "RelativeDocumentMoniker": "Others\\TeamProject\\0.Teamroject.md",
-              "ToolTip": "C:\\KHH\\Records\\Others\\TeamProject\\0.Teamroject.md",
-              "RelativeToolTip": "Others\\TeamProject\\0.Teamroject.md",
+              "DocumentIndex": 2,
+              "Title": "0.TeamProject.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Others\\TeamProject\\0.TeamProject.md",
+              "RelativeDocumentMoniker": "Others\\TeamProject\\0.TeamProject.md",
+              "ToolTip": "C:\\KHH\\Records\\Others\\TeamProject\\0.TeamProject.md",
+              "RelativeToolTip": "Others\\TeamProject\\0.TeamProject.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-10-07T23:56:48.549Z",
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "README.md",
               "DocumentMoniker": "C:\\KHH\\Records\\README.md",
               "RelativeDocumentMoniker": "README.md",
