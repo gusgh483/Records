@@ -15,5 +15,5 @@
 - [영어](./Theory/5English.md)
 
 ## 기타
-- [팀프로젝트 일지](./Others/TeamProject/0.Teamroject.md)
+- [팀프로젝트 일지](./Others/TeamProject/0.TeamProject.md)
 - [취업특강](./Others/JobTips.md)
