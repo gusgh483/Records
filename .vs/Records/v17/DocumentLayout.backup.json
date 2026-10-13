@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\KHHStudy\\Records\\",
+  "WorkspaceRootPath": "C:\\KHH\\Records\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Others\\TeamProject\\1.WeekRecord_10_3.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_3.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\1.WeekRecord_10_3.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Others\\TeamProject\\0.TeamProject.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Others\\TeamProject\\0.TeamProject.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\0.TeamProject.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KHHStudy\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Others\\TeamProject\\1.WeekRecord_10_2.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "1.WeekRecord_10_3.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Others\\TeamProject\\1.WeekRecord_10_3.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_3.md",
               "RelativeDocumentMoniker": "Others\\TeamProject\\1.WeekRecord_10_3.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Others\\TeamProject\\1.WeekRecord_10_3.md",
+              "ToolTip": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_3.md",
               "RelativeToolTip": "Others\\TeamProject\\1.WeekRecord_10_3.md",
-              "ViewState": "AgIAACEAAAAAAAAAAAAqwDUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwGoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-10-12T02:59:24.828Z",
               "EditorCaption": ""
@@ -53,40 +53,37 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "1.WeekRecord_10_2.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
               "RelativeDocumentMoniker": "Others\\TeamProject\\1.WeekRecord_10_2.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
+              "ToolTip": "C:\\KHH\\Records\\Others\\TeamProject\\1.WeekRecord_10_2.md",
               "RelativeToolTip": "Others\\TeamProject\\1.WeekRecord_10_2.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-10-07T23:59:37.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T23:59:37.916Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "0.TeamProject.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\Others\\TeamProject\\0.TeamProject.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\Others\\TeamProject\\0.TeamProject.md",
               "RelativeDocumentMoniker": "Others\\TeamProject\\0.TeamProject.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\Others\\TeamProject\\0.TeamProject.md",
+              "ToolTip": "C:\\KHH\\Records\\Others\\TeamProject\\0.TeamProject.md",
               "RelativeToolTip": "Others\\TeamProject\\0.TeamProject.md",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-10-07T23:56:48.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T23:56:48.549Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "README.md",
-              "DocumentMoniker": "D:\\KHHStudy\\Records\\README.md",
+              "DocumentMoniker": "C:\\KHH\\Records\\README.md",
               "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "D:\\KHHStudy\\Records\\README.md",
+              "ToolTip": "C:\\KHH\\Records\\README.md",
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-11T04:01:59.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T04:01:59.866Z"
             }
           ]
         }
